@@ -1,16 +1,25 @@
-## Hi there 👋
+# 👋 Hi, I'm Mohamed Taouach (tawachdev)
 
-<!--
-**tawachdev/tawachdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🧠 About Me
+I'm a self-taught web developer from Khenifra, Morocco 🇲🇦  
+I create small web projects to improve my skills and build my future step by step.
 
-Here are some ideas to get you started:
+- 📧 Email: [tawachmohmmed399@gmail.com](mailto:tawachmohmmed399@gmail.com)
+- 📱 WhatsApp: [+212690764049](https://wa.me/212690764049)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 💻 Tech Stack
+- HTML | CSS | JavaScript
+- React.js (coming soon!)
+- Git & GitHub
+
+## 🚀 Projects
+- 📱 [Simple Store Website](https://github.com/tawachdev/simo-store)
+- 🧮 [iPhone-style Calculator](https://github.com/tawachdev/calculator)
+
+## 📈 Goals
+- Learn JavaScript deeply
+- Build full-stack projects
+- Work remotely in tech field
+
+## 🧩 Fun Fact
+I believe in *"small steps, every day, lead to big changes"* 🚀
