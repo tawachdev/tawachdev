@@ -12,10 +12,6 @@ I create small web projects to improve my skills and build my future step by ste
 - React.js (coming soon!)
 - Git & GitHub
 
-## 🚀 Projects
-- 📱 [Simple Store Website](https://github.com/tawachdev/simo-store)
-- 🧮 [iPhone-style Calculator](https://github.com/tawachdev/calculator)
-
 ## 📈 Goals
 - Learn JavaScript deeply
 - Build full-stack projects
