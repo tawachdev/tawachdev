@@ -1,16 +1,15 @@
 <div align="center">
 
   <!-- 1. TYPING HEADER -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=435&lines=Hi,+I'm+Mohamed+Tawach;Full+Stack+Developer+🚀;Next.js+16+%26+Hono+Expert;Building+The+Future+🌐" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=435&lines=Hi,+I'm+Mohamed+Tawach;Full+Stack+Software+Engineer+🚀;Next.js+16+%26+Hono+Expert" alt="Typing SVG" />
 
   <br/>
 
   <!-- 2. SOCIALS (LinkedIn & Email) -->
-
   <a href="www.linkedin.com/in/mohamed-taaouach" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:tawachmohmmed399@gmail.com">
+  <a href="mailto:tawachmohammed399@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 
@@ -27,11 +26,10 @@ const mohamed = {
         frontend: ["Next.js 16", "React", "Tailwind", "Shadcn"],
         backend: ["Hono.js", "Node.js", "Express"],
         database: ["Prisma", "PostgreSQL", "MongoDB"],
-        devops: ["Docker", "AWS", "Vercel", "Git"]
+        devops: ["Docker", "Git", "Vercel"]
     },
-   currentChallenge: "Mastering Clean Architecture & AI Integration",
+    currentChallenge: "Mastering Clean Architecture & AI Integration",
     motto: "Turning vision into reality through code 🚀"
-};
 };
     </pre>
   </div>
