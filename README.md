@@ -29,8 +29,9 @@ const mohamed = {
         database: ["Prisma", "PostgreSQL", "MongoDB"],
         devops: ["Docker", "AWS", "Vercel", "Git"]
     },
-    currentChallenge: "Mastering Clean Architecture & AI Integration",
-    motto: "War Mode 🦁 Activated"
+   currentChallenge: "Mastering Clean Architecture & AI Integration",
+    motto: "Turning vision into reality through code 🚀"
+};
 };
     </pre>
   </div>
