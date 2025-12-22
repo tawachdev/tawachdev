@@ -155,31 +155,14 @@ Currently building: AI Code Assistant | SaaS Templates | Real-time Chat
 
 ## 📊 GitHub Statistics
 
-<div align="center">
+<h2 align="center">📈 DEPLOYMENT RECORD</h2>
+  
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=tawachdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Mohamed's Stats" />
+    <br/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tawachdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Langs" />
+  </p>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=tawachdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=FFFFFF&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=tawachdev&theme=tokyonight&hide_border=true&background=0D1117&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&sideLabels=3B82F6&dates=FFFFFF" alt="GitHub Streak" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tawachdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-
-</div>
-
----
-
-## 🎯 2025 Goals & Milestones
-
-<div align="center">
-
-| Goal | Status | Progress |
-|------|--------|----------|
-| 🚀 **Ship 10+ Production Apps** | In Progress | ████░░░░░░ 40% |
-| 💻 **500+ Commits** | Building | ███░░░░░░░ 30% |
-| 🌟 **Open Source Contributions** | Active | ████░░░░░░ 45% |
-| 📝 **Tech Articles** | Writing | ██░░░░░░░░ 20% |
-| 🤖 **AI Integration Projects** | Ongoing | █████░░░░░ 50% |
-
-</div>
 
 ---
 
