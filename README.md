@@ -76,5 +76,5 @@ const mohamed = {
 | Project | Description | Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
 | **🏟️ Stadium Pro** | Real-time sports booking SaaS with Admin Dashboard | Next.js 15, Drizzle, Clerk | 🟢 [Live Demo](https://stadium-pro-ten.vercel.app/) |
-| **🧾 Invoicely** | Multi-tenant Invoicing Platform with PDF generation | Next.js 15, Neon, Tailwind | 🟢 [Live Demo](URL_HERE) |
+| **🧾 Invoicely** | Multi-tenant Invoicing Platform with PDF generation | Next.js 15, Neon, Tailwind | 🟢 [Live Demo](https://invoicely-app-ad24.vercel.app/) |
 </div>
