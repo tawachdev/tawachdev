@@ -6,7 +6,7 @@
   <br/>
 
   <!-- 2. SOCIALS (LinkedIn & Email) -->
-  <a href="www.linkedin.com/in/taaouach" target="_blank">
+  <a href="https://www.linkedin.com/in/mohamed-taaouach-495a44381" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:tawachmohammed399@gmail.com">
