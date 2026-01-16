@@ -60,28 +60,31 @@ const mohamed = {
   <h2 align="center">⚔️ TECH ARSENAL</h2>
   <div align="center">
     <h3>Frontend & UI</h3>
-    <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-    <img src="https://img.shields.io/badge/react-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" />
-    <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/tailwindcss-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-    <img src="https://img.shields.io/badge/Shadcn_UI-7928CA?style=for-the-badge&logoColor=white" />
+<img height="45" src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" />
+<img height="45" src="https://cdn.simpleicons.org/react/61DAFB" />
+<img height="45" src="https://cdn.simpleicons.org/typescript/3178C6" />
+<img height="45" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" />
+<img height="45" src="https://cdn.simpleicons.org/shadcnui/FFFFFF" />
   </div>
 
   <div align="center">
     <h3>Backend & Database</h3>
-    <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/hono-E05D44?style=for-the-badge&logo=fire&logoColor=white" />
-    <img src="https://img.shields.io/badge/drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
-    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-    <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white" />
+  <img height="48" src="https://cdn.simpleicons.org/nodedotjs/339933" />
+<img height="48" src="https://cdn.simpleicons.org/hono/FF6600" />
+<img height="48" src="https://cdn.simpleicons.org/drizzle/C5F74F" />
+<img height="48" src="https://cdn.simpleicons.org/postgresql/4169E1" />
+<img height="48" src="https://cdn.simpleicons.org/prisma/FFFFFF" />
   </div>
 
   <div align="center">
     <h3>Tools & DevOps</h3>
-    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+ <img src="https://skillicons.dev/icons?i=git" />
+<img src="https://skillicons.dev/icons?i=github" />
+<img src="https://skillicons.dev/icons?i=docker" />
+<img src="https://skillicons.dev/icons?i=aws" />
+<img src="https://skillicons.dev/icons?i=vercel" />
+<img src="https://skillicons.dev/icons?i=vscode" />
+<img src="https://skillicons.dev/icons?i=figma" /> 
   </div>
 
   <br/>
