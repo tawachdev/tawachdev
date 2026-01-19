@@ -56,37 +56,21 @@ const mohamed = {
 
   <br/>
 
-  <!-- 5. TECH ARSENAL -->
-  <h2 align="center">⚔️ TECH ARSENAL</h2>
   <div align="center">
-    <h3>Frontend & UI</h3>
-<img height="45" src="https://cdn.simpleicons.org/nextdotjs/FFFFFF" />
-<img height="45" src="https://cdn.simpleicons.org/react/61DAFB" />
-<img height="45" src="https://cdn.simpleicons.org/typescript/3178C6" />
-<img height="45" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" />
-<img height="45" src="https://cdn.simpleicons.org/shadcnui/FFFFFF" />
-  </div>
 
-  <div align="center">
-    <h3>Backend & Database</h3>
-  <img height="48" src="https://cdn.simpleicons.org/nodedotjs/339933" />
-<img height="48" src="https://cdn.simpleicons.org/hono/FF6600" />
-<img height="48" src="https://cdn.simpleicons.org/drizzle/C5F74F" />
-<img height="48" src="https://cdn.simpleicons.org/postgresql/4169E1" />
-<img height="48" src="https://cdn.simpleicons.org/prisma/FFFFFF" />
-  </div>
-
-  <div align="center">
-    <h3>Tools & DevOps</h3>
- <img src="https://skillicons.dev/icons?i=git" />
-<img src="https://skillicons.dev/icons?i=github" />
-<img src="https://skillicons.dev/icons?i=docker" />
-<img src="https://skillicons.dev/icons?i=aws" />
-<img src="https://skillicons.dev/icons?i=vercel" />
-<img src="https://skillicons.dev/icons?i=vscode" />
-<img src="https://skillicons.dev/icons?i=figma" /> 
-  </div>
-
+### ⚡ PRIMARY WEAPONS (The Core)
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,postgres,vercel,git,github" />
+</a>
+<br/>
+### 💎 THE SAAS ARSENAL (Specialized Tech)
+<img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
+<img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
+<img src="https://img.shields.io/badge/Clerk_Auth-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" />
+<img src="https://img.shields.io/badge/Stripe_Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/Pusher_Realtime-300D4F?style=for-the-badge&logo=pusher&logoColor=white" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
+</div>
   <br/>
 
   <!-- 6. FEATURED PROJECTS -->
