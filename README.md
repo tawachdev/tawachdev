@@ -55,21 +55,28 @@ const mohamed = {
 </ul>
 
   <br/>
-
+  
+<!-- 5. TECH ARSENAL -->
   <div align="center">
 
 ### ⚡ PRIMARY WEAPONS (The Core)
+
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,postgres,vercel,git,github" />
 </a>
+
 <br/>
+
 ### 💎 THE SAAS ARSENAL (Specialized Tech)
+
+
 <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
 <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
 <img src="https://img.shields.io/badge/Clerk_Auth-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" />
 <img src="https://img.shields.io/badge/Stripe_Payments-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
 <img src="https://img.shields.io/badge/Pusher_Realtime-300D4F?style=for-the-badge&logo=pusher&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
+
 </div>
   <br/>
 
