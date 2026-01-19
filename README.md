@@ -1,33 +1,31 @@
 <div align="center">
   
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2500&pause=800&color=00D9FF&center=true&vCenter=true&width=700&lines=Mohamed+Taaouach;Full+Stack+Software+Engineer;Next.js+15+%7C+Real-Time+Systems" alt="Typing SVG" />
+
 <br/>
-<p align="center">
 
-  <br/>
+<!-- SOCIALS -->
+<a href="https://www.linkedin.com/in/mohamed-taaouach-495a44381" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="mailto:tawachmohammed399@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://wa.me/212690764049" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</a>
 
-  <!-- 2. SOCIALS (LinkedIn, Email, WhatsApp) -->
-  <a href="https://www.linkedin.com/in/mohamed-taaouach-495a44381" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:tawachmohammed399@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://wa.me/212690764049" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+<br/><br/>
 
-  <br/><br/>
-
-  <!-- 3. BIO -->
-  <div align="left">
-    <pre>
+<!-- BIO CODE -->
+<div align="left">
+  <pre>
 const mohamed = {
     role: "Full Stack Software Engineer",
     location: "Morocco 🇲🇦",
     code: ["TypeScript", "JavaScript", "Python"],
     stack: {
-        frontend: ["Next.js 16", "React 19", "Tailwind v4", "Shadcn/UI"],
+        frontend: ["Next.js 15", "React 19", "Tailwind v4", "Shadcn/UI"],
         backend: ["Hono.js", "Server Actions", "Node.js"], 
         database: ["Drizzle ORM", "Neon (Postgres)", "Prisma"],
         devops: ["Vercel", "Git", "Clerk Auth"]
@@ -35,41 +33,36 @@ const mohamed = {
     currentChallenge: "Mastering Clean Architecture & AI Integration",
     motto: "Turning vision into reality through code 🚀"
 };
-    </pre>
-  </div>
+  </pre>
+</div>
 
-  <br/>
+<br/>
 
-  <!-- 4. TOP SKILLS -->
-  <h2 align="center">🏆 TOP SKILLS</h2>
- <ul align="left">
-  <li>💻 <strong>Full-Stack Engineering</strong>: Next.js 15/16, Server Actions, App Router, TypeScript Strict Typing, React Hooks Advanced Usage.</li>
-  <li>🗄️ <strong>Database & Backend Architecture</strong>: Drizzle ORM, PostgreSQL/Neon, Multi-Tenancy, Transactions, Complex Queries, ACID Compliance.</li>
-  <li>⚡ <strong>Real-Time & Event-Driven Apps</strong>: WebSockets, Pusher, Optimistic UI, Client-Server Sync.</li>
-  <li>🚀 <strong>Performance & Optimization</strong>: Smart Caching, Skeleton Loading, Silent Updates, Turbopack.</li>
-  <li>🎨 <strong>UI/UX & Mobile-First Design</strong>: Responsive, Bottom Nav, PWA Installable, Dark Mode, RTL Support.</li>
-  <li>🌍 <strong>Internationalization (i18n)</strong>: Multi-Language (Darija, Arabic, French, English), Dynamic Translation & Direction (RTL/LTR).</li>
-  <li>📊 <strong>Business Logic & SaaS Features</strong>: Booking Engines, Recurring Bookings, WhatsApp Automation, Dashboard Analytics.</li>
-  <li>🛠️ <strong>DevOps & Deployment</strong>: Vercel Optimization, Neon Cloud DB, Google Analytics Integration.</li>
-  <li>🤖 <strong>AI & Clean Architecture</strong>: Integrating AI modules & scalable architecture patterns for SaaS projects.</li>
+<!-- TOP SKILLS -->
+<h2 align="center">🏆 TOP SKILLS</h2>
+<ul align="left">
+  <li>💻 <strong>Full-Stack Engineering</strong>: Next.js 15, Server Actions, App Router, TypeScript Strict Typing.</li>
+  <li>🗄️ <strong>Database & Backend Architecture</strong>: Drizzle ORM, PostgreSQL/Neon, Transactions, ACID Compliance.</li>
+  <li>⚡ <strong>Real-Time Systems</strong>: WebSockets, Pusher, Optimistic UI, Event-Driven Architecture.</li>
+  <li>🚀 <strong>Performance</strong>: Smart Caching (unstable_cache), Skeleton Loading, Silent Updates.</li>
+  <li>🎨 <strong>UI/UX & Design</strong>: Mobile-First, PWA (Installable), Dark Mode, RTL Support.</li>
+  <li>🌍 <strong>Internationalization</strong>: Multi-Language (Darija, Arabic, French, English).</li>
+  <li>📊 <strong>SaaS Features</strong>: Booking Engines, Recurring Slots, WhatsApp Automation, Analytics.</li>
+  <li>🛠️ <strong>DevOps</strong>: Vercel Deployment, CI/CD Concepts, Cloud Databases.</li>
+   <li>🤖 <strong>AI & Clean Architecture</strong>: Integrating AI modules & scalable architecture patterns for SaaS projects.</li>
 </ul>
 
-  <br/>
+<br/>
   
-<!-- 5. TECH ARSENAL -->
-  <div align="center">
+<!-- TECH ARSENAL -->
+<h2 align="center">⚔️ TECH ARSENAL</h2>
 
-### ⚡ PRIMARY WEAPONS (The Core)
-
+### ⚡ PRIMARY WEAPONS
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,tailwind,postgres,vercel,git,github" />
 </a>
 
-<br/>
-
-### 💎 THE SAAS ARSENAL (Specialized Tech)
-
-
+### 💎 THE SAAS ARSENAL
 <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" />
 <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
 <img src="https://img.shields.io/badge/Clerk_Auth-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" />
@@ -77,12 +70,11 @@ const mohamed = {
 <img src="https://img.shields.io/badge/Pusher_Realtime-300D4F?style=for-the-badge&logo=pusher&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
 
-</div>
-  <br/>
+<br/><br/>
 
-  <!-- 6. FEATURED PROJECTS -->
-  <h2 align="center">🚀 FEATURED SAAS PROJECTS</h2>
- <table>
+<!-- FEATURED PROJECTS -->
+<h2 align="center">🚀 FEATURED SAAS PROJECTS</h2>
+<table>
   <tr>
     <th>Project</th>
     <th>Description & Impact</th>
@@ -91,36 +83,42 @@ const mohamed = {
   </tr>
   <tr>
     <td>🍱 Tawach Portfolio</td>
-    <td>Modern Bento Grid portfolio with 3D animations, Dark Mode & fully responsive → Showcases professional frontend skills.</td>
-    <td>Next.js 15, Tailwind v4, Framer Motion</td>
+    <td>Modern Bento Grid portfolio with 3D animations & Dark Mode.</td>
+    <td>Next.js 15, Tailwind v4</td>
     <td>🟢 <a href="https://tawach-portfolio.vercel.app/">Live Demo</a></td>
   </tr>
   <tr>
     <td>🏟️ Stadium Pro</td>
-    <td>Real-time sports booking SaaS with Admin Dashboard, WhatsApp automation, Multi-Language & PWA → Demonstrates full-stack & SaaS architecture mastery.</td>
-    <td>Next.js 15, Drizzle, Clerk, Pusher</td>
+    <td>Real-time sports booking SaaS with Admin Dashboard, WhatsApp & PWA.</td>
+    <td>Next.js 15, Drizzle, Stripe</td>
     <td>🟢 <a href="https://stadium-pro-ten.vercel.app/">Live Demo</a></td>
   </tr>
   <tr>
     <td>🧾 Invoicely</td>
-    <td>Multi-tenant invoicing platform with PDF generation & role-based access → Shows database modeling, business logic & backend expertise.</td>
+    <td>Multi-tenant invoicing platform with PDF generation & RBAC.</td>
     <td>Next.js 15, Neon, Zod</td>
     <td>🟢 <a href="https://invoicely-app-ten.vercel.app/">Live Demo</a></td>
   </tr>
 </table>
 
-  <br/>
+<br/>
 
-  <!-- 7. CALL TO ACTION -->
-  <h2 align="center">📩 LET'S CONNECT</h2>
-  <a href="mailto:tawachmohammed399@gmail.com">
-    <img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/mohamed-taaouach-495a44381" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://wa.me/212690764049" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+<!-- GITHUB STATS (BONUS) -->
+<h2 align="center">📊 GITHUB STATS</h2>
+<img src="https://github-readme-stats.vercel.app/api?username=tawachdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Stats" />
+
+<br/><br/>
+
+<!-- CONTACT -->
+<h2 align="center">📩 LET'S CONNECT</h2>
+<a href="mailto:tawachmohammed399@gmail.com">
+  <img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/mohamed-taaouach-495a44381" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://wa.me/212690764049" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</a>
 
 </div>
