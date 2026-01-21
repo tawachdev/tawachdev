@@ -103,7 +103,7 @@ const mohamed = {
 
 <br/>
 
-<!-- GITHUB STATS (BONUS) -->
+<!-- GITHUB STATS -->
 <h2 align="center">📊 GITHUB STATS</h2>
 <img src="https://github-readme-stats.vercel.app/api?username=tawachdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Stats" />
 
