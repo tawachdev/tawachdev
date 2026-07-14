@@ -1,14 +1,14 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=34&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=1000&lines=Mohamed+Taaouach;Full-Stack+Systems+Engineer;AI+Automation+%7C+Realtime+Ops;Secure+Business+Software;Building+Forgebyter)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=34&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=1000&lines=Mohamed+Taaouach;Full-Stack+Product+Engineer;B2B+SaaS+%7C+Backend+Systems;AI+Automation+%7C+Realtime+Ops;Secure+Production+Software;Open+to+Remote+%26+Freelance)](https://git.io/typing-svg)
 
-**I build secure full-stack systems for real business operations.**  
-**SaaS, booking platforms, payments, admin dashboards, AI automation, realtime systems, and production workflows.**
+**I build secure production-grade full-stack systems for real business operations.**  
+**B2B SaaS, secure backends, payments, admin systems, AI automation, realtime services, and production delivery.**
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/mohamed-taaouach-495a44381)
-[![Email](https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:tawachmohammed399@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/taaouach/)
+[![Email](https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:tawachmohmmed399@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-0B1220?style=for-the-badge&logo=whatsapp&logoColor=22C55E)](https://wa.me/212690764049)
 
 </div>
@@ -115,3 +115,42 @@
 </div>
 
 ---
+
+<div align="center">
+
+## Selected Public Work
+
+### ForgeLens
+
+**Local-first repository intelligence for safer AI-assisted development.**
+
+Scans repositories, maps risky areas, generates AI-ready context, and tracks baseline drift.
+
+[![Repository](https://img.shields.io/badge/Repository-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tawachdev/forgelens)
+[![Live Examples](https://img.shields.io/badge/Live_Examples-111827?style=for-the-badge&logo=vercel&logoColor=38BDF8)](https://forgelens-lyart.vercel.app/examples)
+
+</div>
+
+---
+
+<div align="center">
+
+## Private Production Work
+
+Most of my production SaaS and client work is private. I present my engineering scope, architecture decisions, and delivery standards without exposing client data, business logic, or internal implementation.
+
+</div>
+
+---
+
+<div align="center">
+
+## Open to Remote Work
+
+![Remote Full-Time](https://img.shields.io/badge/Remote_Full--Time-111827?style=for-the-badge&logo=googlemeet&logoColor=22C55E)
+![Contract](https://img.shields.io/badge/Contract-111827?style=for-the-badge&logo=gitbook&logoColor=38BDF8)
+![Freelance](https://img.shields.io/badge/Freelance-111827?style=for-the-badge&logo=upwork&logoColor=22C55E)
+
+**Based in Morocco and open to international teams.**
+
+</div>
