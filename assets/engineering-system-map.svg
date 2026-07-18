@@ -1,0 +1,589 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering system map for tawachdev</title>
+  <desc id="desc">A science-fiction engineering capability matrix with four connected modules and secondary technology nodes.</desc>
+  <defs>
+    <pattern id="matrixGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path class="grid-line" d="M22 0H0V22" fill="none" stroke-opacity=".07"/>
+    </pattern>
+    <linearGradient id="darkPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1210"/>
+      <stop offset="1" stop-color="#070b09"/>
+    </linearGradient>
+    <filter id="softGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="lineGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="routeTopLeft" d="M600 380H590V253H578"/>
+    <path id="routeTopRight" d="M600 380H610V253H622"/>
+    <path id="routeBottomLeft" d="M600 380H590V507H578"/>
+    <path id="routeBottomRight" d="M600 380H610V507H622"/>
+  </defs>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #ffffff;
+      --canvas-border: #d0d7de;
+      --grid: #d8dee4;
+      --header: #f6f8fa;
+      --panel: #ffffff;
+      --panel-border: #afb8c1;
+      --node: #f6f8fa;
+      --node-border: #d0d7de;
+      --text: #1f2328;
+      --muted: #57606a;
+      --faint: #8c959f;
+      --line: #8c959f;
+      --green: #1a7f37;
+      --green-soft: #dafbe1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --canvas: #0d1117;
+        --canvas-border: #30363d;
+        --grid: #21262d;
+        --header: #0b0f12;
+        --panel: url(#darkPanel);
+        --panel-border: #263d30;
+        --node: #0d1117;
+        --node-border: #30363d;
+        --text: #f0f6fc;
+        --muted: #8b949e;
+        --faint: #6e7681;
+        --line: #2f4c39;
+        --green: #39d353;
+        --green-soft: #0f2b1b;
+      }
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .canvas { fill: var(--canvas); }
+    .canvas-border { stroke: var(--canvas-border); }
+    .grid-line { stroke: var(--grid); }
+    .header-panel { fill: var(--header); stroke: var(--canvas-border); }
+    .module-panel { fill: var(--panel); stroke: var(--panel-border); }
+    .module-accent { stroke: var(--panel-border); }
+    .module-id { fill: var(--green); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-weight: 800; }
+    .module-title { fill: var(--text); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .module-subtitle { fill: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .tech-node { fill: var(--node); stroke: var(--node-border); }
+    .node-label { fill: var(--text); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .signal-line { stroke: var(--line); }
+    .hub { fill: var(--green-soft); stroke: var(--green); }
+    .hub-text { fill: var(--green); }
+    .muted { fill: var(--muted); }
+    .faint { fill: var(--faint); }
+    .status { fill: var(--green); }
+    .status-dot { fill: var(--green); }
+    @media (prefers-reduced-motion: reduce) {
+      animate, animateMotion { display: none; }
+    }
+  </style>
+
+  <rect class="canvas" width="1200" height="800" rx="28"/>
+  <rect width="1200" height="800" rx="28" fill="url(#matrixGrid)"/>
+  <rect class="canvas-border" x="28" y="26" width="1144" height="748" rx="22" fill="none"/>
+
+  <g class="mono">
+    <rect class="header-panel" x="46" y="42" width="1108" height="72" rx="14"/>
+    <circle cx="66" cy="62" r="4.5" fill="#ff5f57"/>
+    <circle cx="82" cy="62" r="4.5" fill="#febc2e"/>
+    <circle cx="98" cy="62" r="4.5" fill="#28c840"/>
+    <text class="muted" x="116" y="66" font-size="11.5">tawachdev@github: ~/capabilities</text>
+    <text class="module-title" x="66" y="94" font-size="17" font-weight="800" letter-spacing="1.2">ENGINEERING SYSTEM MAP</text>
+    <text class="faint" x="343" y="94" font-size="9.5" letter-spacing="1">// PUBLIC CAPABILITY MATRIX</text>
+    <text class="status" x="1086" y="66" text-anchor="end" font-size="10">ALL SYSTEMS NOMINAL</text>
+    <circle class="status-dot" cx="1118" cy="62" r="4" filter="url(#softGlow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text class="faint" x="1086" y="94" text-anchor="end" font-size="9">4 MODULES / 43 SIGNALS</text>
+  </g>
+
+  <g fill="none" stroke-width="1.2" class="signal-line">
+    <use href="#routeTopLeft"/>
+    <use href="#routeTopRight"/>
+    <use href="#routeBottomLeft"/>
+    <use href="#routeBottomRight"/>
+  </g>
+  <g fill="var(--green)" filter="url(#lineGlow)">
+    <circle r="3"><animateMotion dur="3.1s" repeatCount="indefinite"><mpath href="#routeTopLeft"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.5s" begin="-.8s" repeatCount="indefinite"><mpath href="#routeTopRight"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.3s" begin="-1.5s" repeatCount="indefinite"><mpath href="#routeBottomLeft"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="3.8s" begin="-2.2s" repeatCount="indefinite"><mpath href="#routeBottomRight"/></animateMotion></circle>
+  </g>
+
+  <g>
+      <rect class="module-panel" x="58" y="142" width="520" height="222" rx="16"/>
+      <path class="module-accent" d="M75 186H561"/>
+      <text class="module-id" x="76" y="169" font-size="10">MODULE 01</text>
+      <text class="module-title" x="157" y="170" font-size="15" font-weight="800" letter-spacing="1.1">CORE RUNTIME</text>
+      <text class="module-subtitle" x="561" y="169" text-anchor="end" font-size="8.5" letter-spacing=".7">APPLICATION FOUNDATION</text>
+      <g>
+      <rect class="tech-node" x="76" y="202" width="232" height="34" rx="8"/>
+      <rect x="84" y="209" width="36" height="20" rx="5" fill="#3178c6" fill-opacity=".13"/>
+      <text x="102" y="223.5" fill="#3178c6" text-anchor="middle" font-size="9.5" font-weight="800">TS</text>
+      <text class="node-label" x="129" y="224" font-size="11.5" font-weight="700">TypeScript</text>
+      <g opacity="0">
+        <rect x="76.5" y="202.5" width="231" height="33" rx="8" fill="none" stroke="#3178c6" stroke-width="1.5"/>
+        <circle cx="295" cy="219" r="3" fill="#3178c6" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.050;0.058;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="202" width="232" height="34" rx="8"/>
+      <rect x="328" y="209" width="36" height="20" rx="5" fill="#087ea4" fill-opacity=".13"/>
+      <text x="346" y="223.5" fill="#087ea4" text-anchor="middle" font-size="9.5" font-weight="800">RE</text>
+      <text class="node-label" x="373" y="224" font-size="11.5" font-weight="700">React</text>
+      <g opacity="0">
+        <rect x="320.5" y="202.5" width="231" height="33" rx="8" fill="none" stroke="#087ea4" stroke-width="1.5"/>
+        <circle cx="539" cy="219" r="3" fill="#087ea4" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.068;0.076;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="76" y="241" width="232" height="34" rx="8"/>
+      <rect x="84" y="248" width="36" height="20" rx="5" fill="#8c959f" fill-opacity=".13"/>
+      <text x="102" y="262.5" fill="#8c959f" text-anchor="middle" font-size="9.5" font-weight="800">NX</text>
+      <text class="node-label" x="129" y="263" font-size="11.5" font-weight="700">Next.js</text>
+      <g opacity="0">
+        <rect x="76.5" y="241.5" width="231" height="33" rx="8" fill="none" stroke="#8c959f" stroke-width="1.5"/>
+        <circle cx="295" cy="258" r="3" fill="#8c959f" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.086;0.094;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="241" width="232" height="34" rx="8"/>
+      <rect x="328" y="248" width="36" height="20" rx="5" fill="#339933" fill-opacity=".13"/>
+      <text x="346" y="262.5" fill="#339933" text-anchor="middle" font-size="9.5" font-weight="800">ND</text>
+      <text class="node-label" x="373" y="263" font-size="11.5" font-weight="700">Node.js</text>
+      <g opacity="0">
+        <rect x="320.5" y="241.5" width="231" height="33" rx="8" fill="none" stroke="#339933" stroke-width="1.5"/>
+        <circle cx="539" cy="258" r="3" fill="#339933" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.104;0.112;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="76" y="280" width="232" height="34" rx="8"/>
+      <rect x="84" y="287" width="36" height="20" rx="5" fill="#4169e1" fill-opacity=".13"/>
+      <text x="102" y="301.5" fill="#4169e1" text-anchor="middle" font-size="9.5" font-weight="800">PG</text>
+      <text class="node-label" x="129" y="302" font-size="11.5" font-weight="700">PostgreSQL</text>
+      <g opacity="0">
+        <rect x="76.5" y="280.5" width="231" height="33" rx="8" fill="none" stroke="#4169e1" stroke-width="1.5"/>
+        <circle cx="295" cy="297" r="3" fill="#4169e1" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.122;0.130;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="280" width="232" height="34" rx="8"/>
+      <rect x="328" y="287" width="36" height="20" rx="5" fill="#9ca326" fill-opacity=".13"/>
+      <text x="346" y="301.5" fill="#9ca326" text-anchor="middle" font-size="9.5" font-weight="800">DR</text>
+      <text class="node-label" x="373" y="302" font-size="11.5" font-weight="700">Drizzle ORM</text>
+      <g opacity="0">
+        <rect x="320.5" y="280.5" width="231" height="33" rx="8" fill="none" stroke="#9ca326" stroke-width="1.5"/>
+        <circle cx="539" cy="297" r="3" fill="#9ca326" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.140;0.148;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="76" y="319" width="232" height="34" rx="8"/>
+      <rect x="84" y="326" width="36" height="20" rx="5" fill="#06b6d4" fill-opacity=".13"/>
+      <text x="102" y="340.5" fill="#06b6d4" text-anchor="middle" font-size="9.5" font-weight="800">TW</text>
+      <text class="node-label" x="129" y="341" font-size="11.5" font-weight="700">Tailwind CSS</text>
+      <g opacity="0">
+        <rect x="76.5" y="319.5" width="231" height="33" rx="8" fill="none" stroke="#06b6d4" stroke-width="1.5"/>
+        <circle cx="295" cy="336" r="3" fill="#06b6d4" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.158;0.166;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="319" width="232" height="34" rx="8"/>
+      <rect x="328" y="326" width="36" height="20" rx="5" fill="#8c959f" fill-opacity=".13"/>
+      <text x="346" y="340.5" fill="#8c959f" text-anchor="middle" font-size="9.5" font-weight="800">UI</text>
+      <text class="node-label" x="373" y="341" font-size="11.5" font-weight="700">shadcn/ui</text>
+      <g opacity="0">
+        <rect x="320.5" y="319.5" width="231" height="33" rx="8" fill="none" stroke="#8c959f" stroke-width="1.5"/>
+        <circle cx="539" cy="336" r="3" fill="#8c959f" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.176;0.184;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    </g><g>
+      <rect class="module-panel" x="622" y="142" width="520" height="222" rx="16"/>
+      <path class="module-accent" d="M639 186H1125"/>
+      <text class="module-id" x="640" y="169" font-size="10">MODULE 02</text>
+      <text class="module-title" x="721" y="170" font-size="15" font-weight="800" letter-spacing="1.1">SECURE BACKEND</text>
+      <text class="module-subtitle" x="1125" y="169" text-anchor="end" font-size="8.5" letter-spacing=".7">TRUST AND TRANSACTION LAYER</text>
+      <g>
+      <rect class="tech-node" x="640" y="202" width="232" height="34" rx="8"/>
+      <rect x="648" y="209" width="36" height="20" rx="5" fill="#f97316" fill-opacity=".13"/>
+      <text x="666" y="223.5" fill="#f97316" text-anchor="middle" font-size="9.5" font-weight="800">API</text>
+      <text class="node-label" x="693" y="224" font-size="11.5" font-weight="700">REST APIs</text>
+      <g opacity="0">
+        <rect x="640.5" y="202.5" width="231" height="33" rx="8" fill="none" stroke="#f97316" stroke-width="1.5"/>
+        <circle cx="859" cy="219" r="3" fill="#f97316" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.194;0.202;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="202" width="232" height="34" rx="8"/>
+      <rect x="892" y="209" width="36" height="20" rx="5" fill="#8c959f" fill-opacity=".13"/>
+      <text x="910" y="223.5" fill="#8c959f" text-anchor="middle" font-size="9.5" font-weight="800">SA</text>
+      <text class="node-label" x="937" y="224" font-size="11.5" font-weight="700">Server Actions</text>
+      <g opacity="0">
+        <rect x="884.5" y="202.5" width="231" height="33" rx="8" fill="none" stroke="#8c959f" stroke-width="1.5"/>
+        <circle cx="1103" cy="219" r="3" fill="#8c959f" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.212;0.220;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="640" y="241" width="232" height="34" rx="8"/>
+      <rect x="648" y="248" width="36" height="20" rx="5" fill="#3b82f6" fill-opacity=".13"/>
+      <text x="666" y="262.5" fill="#3b82f6" text-anchor="middle" font-size="9.5" font-weight="800">AU</text>
+      <text class="node-label" x="693" y="263" font-size="11.5" font-weight="700">Auth / RBAC</text>
+      <g opacity="0">
+        <rect x="640.5" y="241.5" width="231" height="33" rx="8" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+        <circle cx="859" cy="258" r="3" fill="#3b82f6" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.230;0.238;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="241" width="232" height="34" rx="8"/>
+      <rect x="892" y="248" width="36" height="20" rx="5" fill="#2563eb" fill-opacity=".13"/>
+      <text x="910" y="262.5" fill="#2563eb" text-anchor="middle" font-size="9.5" font-weight="800">V</text>
+      <text class="node-label" x="937" y="263" font-size="11.5" font-weight="700">Validation</text>
+      <g opacity="0">
+        <rect x="884.5" y="241.5" width="231" height="33" rx="8" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+        <circle cx="1103" cy="258" r="3" fill="#2563eb" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.248;0.256;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="640" y="280" width="232" height="34" rx="8"/>
+      <rect x="648" y="287" width="36" height="20" rx="5" fill="#f97316" fill-opacity=".13"/>
+      <text x="666" y="301.5" fill="#f97316" text-anchor="middle" font-size="9.5" font-weight="800">RL</text>
+      <text class="node-label" x="693" y="302" font-size="11.5" font-weight="700">Rate Limits</text>
+      <g opacity="0">
+        <rect x="640.5" y="280.5" width="231" height="33" rx="8" fill="none" stroke="#f97316" stroke-width="1.5"/>
+        <circle cx="859" cy="297" r="3" fill="#f97316" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.266;0.274;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="280" width="232" height="34" rx="8"/>
+      <rect x="892" y="287" width="36" height="20" rx="5" fill="#22c55e" fill-opacity=".13"/>
+      <text x="910" y="301.5" fill="#22c55e" text-anchor="middle" font-size="9.5" font-weight="800">MT</text>
+      <text class="node-label" x="937" y="302" font-size="11.5" font-weight="700">Multi-Tenancy</text>
+      <g opacity="0">
+        <rect x="884.5" y="280.5" width="231" height="33" rx="8" fill="none" stroke="#22c55e" stroke-width="1.5"/>
+        <circle cx="1103" cy="297" r="3" fill="#22c55e" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.284;0.292;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="640" y="319" width="232" height="34" rx="8"/>
+      <rect x="648" y="326" width="36" height="20" rx="5" fill="#635bff" fill-opacity=".13"/>
+      <text x="666" y="340.5" fill="#635bff" text-anchor="middle" font-size="9.5" font-weight="800">PAY</text>
+      <text class="node-label" x="693" y="341" font-size="11.5" font-weight="700">Payments</text>
+      <g opacity="0">
+        <rect x="640.5" y="319.5" width="231" height="33" rx="8" fill="none" stroke="#635bff" stroke-width="1.5"/>
+        <circle cx="859" cy="336" r="3" fill="#635bff" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.302;0.310;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="319" width="232" height="34" rx="8"/>
+      <rect x="892" y="326" width="36" height="20" rx="5" fill="#d4a72c" fill-opacity=".13"/>
+      <text x="910" y="340.5" fill="#d4a72c" text-anchor="middle" font-size="9.5" font-weight="800">LOG</text>
+      <text class="node-label" x="937" y="341" font-size="11.5" font-weight="700">Audit Logs</text>
+      <g opacity="0">
+        <rect x="884.5" y="319.5" width="231" height="33" rx="8" fill="none" stroke="#d4a72c" stroke-width="1.5"/>
+        <circle cx="1103" cy="336" r="3" fill="#d4a72c" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.320;0.328;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    </g><g>
+      <rect class="module-panel" x="58" y="396" width="520" height="222" rx="16"/>
+      <path class="module-accent" d="M75 440H561"/>
+      <text class="module-id" x="76" y="423" font-size="10">MODULE 03</text>
+      <text class="module-title" x="157" y="424" font-size="15" font-weight="800" letter-spacing="1.1">AI AUTOMATION</text>
+      <text class="module-subtitle" x="561" y="423" text-anchor="end" font-size="8.5" letter-spacing=".7">INTELLIGENCE AND REALTIME</text>
+      <g>
+      <rect class="tech-node" x="76" y="456" width="232" height="34" rx="8"/>
+      <rect x="84" y="463" width="36" height="20" rx="5" fill="#10a37f" fill-opacity=".13"/>
+      <text x="102" y="477.5" fill="#10a37f" text-anchor="middle" font-size="9.5" font-weight="800">AG</text>
+      <text class="node-label" x="129" y="478" font-size="11.5" font-weight="700">AI Agents</text>
+      <g opacity="0">
+        <rect x="76.5" y="456.5" width="231" height="33" rx="8" fill="none" stroke="#10a37f" stroke-width="1.5"/>
+        <circle cx="295" cy="473" r="3" fill="#10a37f" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.338;0.346;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="456" width="232" height="34" rx="8"/>
+      <rect x="328" y="463" width="36" height="20" rx="5" fill="#a855f7" fill-opacity=".13"/>
+      <text x="346" y="477.5" fill="#a855f7" text-anchor="middle" font-size="9.5" font-weight="800">LLM</text>
+      <text class="node-label" x="373" y="478" font-size="11.5" font-weight="700">LLM Workflows</text>
+      <g opacity="0">
+        <rect x="320.5" y="456.5" width="231" height="33" rx="8" fill="none" stroke="#a855f7" stroke-width="1.5"/>
+        <circle cx="539" cy="473" r="3" fill="#a855f7" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.356;0.364;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="76" y="495" width="232" height="34" rx="8"/>
+      <rect x="84" y="502" width="36" height="20" rx="5" fill="#22c55e" fill-opacity=".13"/>
+      <text x="102" y="516.5" fill="#22c55e" text-anchor="middle" font-size="9.5" font-weight="800">RAG</text>
+      <text class="node-label" x="129" y="517" font-size="11.5" font-weight="700">RAG</text>
+      <g opacity="0">
+        <rect x="76.5" y="495.5" width="231" height="33" rx="8" fill="none" stroke="#22c55e" stroke-width="1.5"/>
+        <circle cx="295" cy="512" r="3" fill="#22c55e" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.374;0.382;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="495" width="232" height="34" rx="8"/>
+      <rect x="328" y="502" width="36" height="20" rx="5" fill="#38bdf8" fill-opacity=".13"/>
+      <text x="346" y="516.5" fill="#38bdf8" text-anchor="middle" font-size="9.5" font-weight="800">TC</text>
+      <text class="node-label" x="373" y="517" font-size="11.5" font-weight="700">Tool Calling</text>
+      <g opacity="0">
+        <rect x="320.5" y="495.5" width="231" height="33" rx="8" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+        <circle cx="539" cy="512" r="3" fill="#38bdf8" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.392;0.400;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="76" y="534" width="232" height="34" rx="8"/>
+      <rect x="84" y="541" width="36" height="20" rx="5" fill="#0ea5e9" fill-opacity=".13"/>
+      <text x="102" y="555.5" fill="#0ea5e9" text-anchor="middle" font-size="9.5" font-weight="800">VA</text>
+      <text class="node-label" x="129" y="556" font-size="11.5" font-weight="700">Voice AI</text>
+      <g opacity="0">
+        <rect x="76.5" y="534.5" width="231" height="33" rx="8" fill="none" stroke="#0ea5e9" stroke-width="1.5"/>
+        <circle cx="295" cy="551" r="3" fill="#0ea5e9" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.410;0.418;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="534" width="232" height="34" rx="8"/>
+      <rect x="328" y="541" width="36" height="20" rx="5" fill="#f59e0b" fill-opacity=".13"/>
+      <text x="346" y="555.5" fill="#f59e0b" text-anchor="middle" font-size="9.5" font-weight="800">RT</text>
+      <text class="node-label" x="373" y="556" font-size="11.5" font-weight="700">Realtime</text>
+      <g opacity="0">
+        <rect x="320.5" y="534.5" width="231" height="33" rx="8" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+        <circle cx="539" cy="551" r="3" fill="#f59e0b" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.428;0.436;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="76" y="573" width="232" height="34" rx="8"/>
+      <rect x="84" y="580" width="36" height="20" rx="5" fill="#229ed9" fill-opacity=".13"/>
+      <text x="102" y="594.5" fill="#229ed9" text-anchor="middle" font-size="9.5" font-weight="800">NT</text>
+      <text class="node-label" x="129" y="595" font-size="11.5" font-weight="700">Notifications</text>
+      <g opacity="0">
+        <rect x="76.5" y="573.5" width="231" height="33" rx="8" fill="none" stroke="#229ed9" stroke-width="1.5"/>
+        <circle cx="295" cy="590" r="3" fill="#229ed9" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.446;0.454;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="320" y="573" width="232" height="34" rx="8"/>
+      <rect x="328" y="580" width="36" height="20" rx="5" fill="#16a34a" fill-opacity=".13"/>
+      <text x="346" y="594.5" fill="#16a34a" text-anchor="middle" font-size="9.5" font-weight="800">HA</text>
+      <text class="node-label" x="373" y="595" font-size="11.5" font-weight="700">Human Approval</text>
+      <g opacity="0">
+        <rect x="320.5" y="573.5" width="231" height="33" rx="8" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+        <circle cx="539" cy="590" r="3" fill="#16a34a" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.464;0.472;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    </g><g>
+      <rect class="module-panel" x="622" y="396" width="520" height="222" rx="16"/>
+      <path class="module-accent" d="M639 440H1125"/>
+      <text class="module-id" x="640" y="423" font-size="10">MODULE 04</text>
+      <text class="module-title" x="721" y="424" font-size="15" font-weight="800" letter-spacing="1.1">DELIVERY NETWORK</text>
+      <text class="module-subtitle" x="1125" y="423" text-anchor="end" font-size="8.5" letter-spacing=".7">INFRASTRUCTURE AND QUALITY</text>
+      <g>
+      <rect class="tech-node" x="640" y="456" width="232" height="34" rx="8"/>
+      <rect x="648" y="463" width="36" height="20" rx="5" fill="#f38020" fill-opacity=".13"/>
+      <text x="666" y="477.5" fill="#f38020" text-anchor="middle" font-size="9.5" font-weight="800">CF</text>
+      <text class="node-label" x="693" y="478" font-size="11.5" font-weight="700">Cloudflare</text>
+      <g opacity="0">
+        <rect x="640.5" y="456.5" width="231" height="33" rx="8" fill="none" stroke="#f38020" stroke-width="1.5"/>
+        <circle cx="859" cy="473" r="3" fill="#f38020" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.482;0.490;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="456" width="232" height="34" rx="8"/>
+      <rect x="892" y="463" width="36" height="20" rx="5" fill="#8c959f" fill-opacity=".13"/>
+      <text x="910" y="477.5" fill="#8c959f" text-anchor="middle" font-size="9.5" font-weight="800">VE</text>
+      <text class="node-label" x="937" y="478" font-size="11.5" font-weight="700">Vercel</text>
+      <g opacity="0">
+        <rect x="884.5" y="456.5" width="231" height="33" rx="8" fill="none" stroke="#8c959f" stroke-width="1.5"/>
+        <circle cx="1103" cy="473" r="3" fill="#8c959f" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.500;0.508;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="640" y="495" width="232" height="34" rx="8"/>
+      <rect x="648" y="502" width="36" height="20" rx="5" fill="#2496ed" fill-opacity=".13"/>
+      <text x="666" y="516.5" fill="#2496ed" text-anchor="middle" font-size="9.5" font-weight="800">DK</text>
+      <text class="node-label" x="693" y="517" font-size="11.5" font-weight="700">Docker</text>
+      <g opacity="0">
+        <rect x="640.5" y="495.5" width="231" height="33" rx="8" fill="none" stroke="#2496ed" stroke-width="1.5"/>
+        <circle cx="859" cy="512" r="3" fill="#2496ed" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.518;0.526;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="495" width="232" height="34" rx="8"/>
+      <rect x="892" y="502" width="36" height="20" rx="5" fill="#8c959f" fill-opacity=".13"/>
+      <text x="910" y="516.5" fill="#8c959f" text-anchor="middle" font-size="9.5" font-weight="800">GH</text>
+      <text class="node-label" x="937" y="517" font-size="11.5" font-weight="700">GitHub</text>
+      <g opacity="0">
+        <rect x="884.5" y="495.5" width="231" height="33" rx="8" fill="none" stroke="#8c959f" stroke-width="1.5"/>
+        <circle cx="1103" cy="512" r="3" fill="#8c959f" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.536;0.544;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="640" y="534" width="232" height="34" rx="8"/>
+      <rect x="648" y="541" width="36" height="20" rx="5" fill="#2088ff" fill-opacity=".13"/>
+      <text x="666" y="555.5" fill="#2088ff" text-anchor="middle" font-size="9.5" font-weight="800">CI</text>
+      <text class="node-label" x="693" y="556" font-size="11.5" font-weight="700">CI / CD</text>
+      <g opacity="0">
+        <rect x="640.5" y="534.5" width="231" height="33" rx="8" fill="none" stroke="#2088ff" stroke-width="1.5"/>
+        <circle cx="859" cy="551" r="3" fill="#2088ff" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.554;0.562;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="534" width="232" height="34" rx="8"/>
+      <rect x="892" y="541" width="36" height="20" rx="5" fill="#d4a72c" fill-opacity=".13"/>
+      <text x="910" y="555.5" fill="#d4a72c" text-anchor="middle" font-size="9.5" font-weight="800">LX</text>
+      <text class="node-label" x="937" y="556" font-size="11.5" font-weight="700">Linux</text>
+      <g opacity="0">
+        <rect x="884.5" y="534.5" width="231" height="33" rx="8" fill="none" stroke="#d4a72c" stroke-width="1.5"/>
+        <circle cx="1103" cy="551" r="3" fill="#d4a72c" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.572;0.580;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="640" y="573" width="232" height="34" rx="8"/>
+      <rect x="648" y="580" width="36" height="20" rx="5" fill="#2ead33" fill-opacity=".13"/>
+      <text x="666" y="594.5" fill="#2ead33" text-anchor="middle" font-size="9.5" font-weight="800">PW</text>
+      <text class="node-label" x="693" y="595" font-size="11.5" font-weight="700">Playwright</text>
+      <g opacity="0">
+        <rect x="640.5" y="573.5" width="231" height="33" rx="8" fill="none" stroke="#2ead33" stroke-width="1.5"/>
+        <circle cx="859" cy="590" r="3" fill="#2ead33" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.590;0.598;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="884" y="573" width="232" height="34" rx="8"/>
+      <rect x="892" y="580" width="36" height="20" rx="5" fill="#f46800" fill-opacity=".13"/>
+      <text x="910" y="594.5" fill="#f46800" text-anchor="middle" font-size="9.5" font-weight="800">OB</text>
+      <text class="node-label" x="937" y="595" font-size="11.5" font-weight="700">Observability</text>
+      <g opacity="0">
+        <rect x="884.5" y="573.5" width="231" height="33" rx="8" fill="none" stroke="#f46800" stroke-width="1.5"/>
+        <circle cx="1103" cy="590" r="3" fill="#f46800" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.608;0.616;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    </g>
+
+  <g class="mono">
+    <rect class="hub" x="548" y="363" width="104" height="34" rx="9"/>
+    <text class="hub-text" x="600" y="377" text-anchor="middle" font-size="9" font-weight="800">TWCH / CORE</text>
+    <text class="hub-text" x="600" y="390" text-anchor="middle" font-size="7.5">SIGNAL BUS</text>
+  </g>
+
+  <g class="mono">
+    <path class="signal-line" d="M66 658H1134"/>
+    <text class="module-title" x="66" y="672" font-size="11" font-weight="800" letter-spacing="1">SECONDARY TOOLCHAIN // SATELLITE NODES</text>
+    <text class="faint" x="1134" y="672" text-anchor="end" font-size="8.5">AVAILABLE ON DEMAND</text>
+    <g>
+      <rect class="tech-node" x="66" y="686" width="142" height="34" rx="8"/>
+      <rect x="74" y="693" width="36" height="20" rx="5" fill="#3776ab" fill-opacity=".13"/>
+      <text x="92" y="707.5" fill="#3776ab" text-anchor="middle" font-size="9.5" font-weight="800">PY</text>
+      <text class="node-label" x="119" y="708" font-size="11.5" font-weight="700">Python</text>
+      <g opacity="0">
+        <rect x="66.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#3776ab" stroke-width="1.5"/>
+        <circle cx="195" cy="703" r="3" fill="#3776ab" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.626;0.634;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="216" y="686" width="142" height="34" rx="8"/>
+      <rect x="224" y="693" width="36" height="20" rx="5" fill="#f97316" fill-opacity=".13"/>
+      <text x="242" y="707.5" fill="#f97316" text-anchor="middle" font-size="9.5" font-weight="800">RS</text>
+      <text class="node-label" x="269" y="708" font-size="11.5" font-weight="700">Rust</text>
+      <g opacity="0">
+        <rect x="216.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#f97316" stroke-width="1.5"/>
+        <circle cx="345" cy="703" r="3" fill="#f97316" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.644;0.652;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="366" y="686" width="142" height="34" rx="8"/>
+      <rect x="374" y="693" width="36" height="20" rx="5" fill="#777bb4" fill-opacity=".13"/>
+      <text x="392" y="707.5" fill="#777bb4" text-anchor="middle" font-size="9.5" font-weight="800">PHP</text>
+      <text class="node-label" x="419" y="708" font-size="11.5" font-weight="700">PHP</text>
+      <g opacity="0">
+        <rect x="366.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#777bb4" stroke-width="1.5"/>
+        <circle cx="495" cy="703" r="3" fill="#777bb4" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.662;0.670;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="516" y="686" width="142" height="34" rx="8"/>
+      <rect x="524" y="693" width="36" height="20" rx="5" fill="#ff2d20" fill-opacity=".13"/>
+      <text x="542" y="707.5" fill="#ff2d20" text-anchor="middle" font-size="9.5" font-weight="800">LV</text>
+      <text class="node-label" x="569" y="708" font-size="11.5" font-weight="700">Laravel</text>
+      <g opacity="0">
+        <rect x="516.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#ff2d20" stroke-width="1.5"/>
+        <circle cx="645" cy="703" r="3" fill="#ff2d20" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.680;0.688;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="666" y="686" width="142" height="34" rx="8"/>
+      <rect x="674" y="693" width="36" height="20" rx="5" fill="#e76f00" fill-opacity=".13"/>
+      <text x="692" y="707.5" fill="#e76f00" text-anchor="middle" font-size="9.5" font-weight="800">JV</text>
+      <text class="node-label" x="719" y="708" font-size="11.5" font-weight="700">Java</text>
+      <g opacity="0">
+        <rect x="666.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#e76f00" stroke-width="1.5"/>
+        <circle cx="795" cy="703" r="3" fill="#e76f00" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.698;0.706;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="816" y="686" width="142" height="34" rx="8"/>
+      <rect x="824" y="693" width="36" height="20" rx="5" fill="#00599c" fill-opacity=".13"/>
+      <text x="842" y="707.5" fill="#00599c" text-anchor="middle" font-size="9.5" font-weight="800">C++</text>
+      <text class="node-label" x="869" y="708" font-size="11.5" font-weight="700">C++</text>
+      <g opacity="0">
+        <rect x="816.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#00599c" stroke-width="1.5"/>
+        <circle cx="945" cy="703" r="3" fill="#00599c" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.716;0.724;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="966" y="686" width="142" height="34" rx="8"/>
+      <rect x="974" y="693" width="36" height="20" rx="5" fill="#16a34a" fill-opacity=".13"/>
+      <text x="992" y="707.5" fill="#16a34a" text-anchor="middle" font-size="9.5" font-weight="800">SH</text>
+      <text class="node-label" x="1019" y="708" font-size="11.5" font-weight="700">Shell</text>
+      <g opacity="0">
+        <rect x="966.5" y="686.5" width="141" height="33" rx="8" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+        <circle cx="1095" cy="703" r="3" fill="#16a34a" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.734;0.742;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="275" y="728" width="160" height="34" rx="8"/>
+      <rect x="283" y="735" width="36" height="20" rx="5" fill="#ff5d01" fill-opacity=".13"/>
+      <text x="301" y="749.5" fill="#ff5d01" text-anchor="middle" font-size="9.5" font-weight="800">AS</text>
+      <text class="node-label" x="328" y="750" font-size="11.5" font-weight="700">Astro</text>
+      <g opacity="0">
+        <rect x="275.5" y="728.5" width="159" height="33" rx="8" fill="none" stroke="#ff5d01" stroke-width="1.5"/>
+        <circle cx="422" cy="745" r="3" fill="#ff5d01" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.752;0.760;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="445" y="728" width="160" height="34" rx="8"/>
+      <rect x="453" y="735" width="36" height="20" rx="5" fill="#47a248" fill-opacity=".13"/>
+      <text x="471" y="749.5" fill="#47a248" text-anchor="middle" font-size="9.5" font-weight="800">MG</text>
+      <text class="node-label" x="498" y="750" font-size="11.5" font-weight="700">MongoDB</text>
+      <g opacity="0">
+        <rect x="445.5" y="728.5" width="159" height="33" rx="8" fill="none" stroke="#47a248" stroke-width="1.5"/>
+        <circle cx="592" cy="745" r="3" fill="#47a248" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.770;0.778;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="615" y="728" width="160" height="34" rx="8"/>
+      <rect x="623" y="735" width="36" height="20" rx="5" fill="#0f80cc" fill-opacity=".13"/>
+      <text x="641" y="749.5" fill="#0f80cc" text-anchor="middle" font-size="9.5" font-weight="800">SQ</text>
+      <text class="node-label" x="668" y="750" font-size="11.5" font-weight="700">SQLite</text>
+      <g opacity="0">
+        <rect x="615.5" y="728.5" width="159" height="33" rx="8" fill="none" stroke="#0f80cc" stroke-width="1.5"/>
+        <circle cx="762" cy="745" r="3" fill="#0f80cc" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.788;0.796;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g><g>
+      <rect class="tech-node" x="785" y="728" width="160" height="34" rx="8"/>
+      <rect x="793" y="735" width="36" height="20" rx="5" fill="#5b6472" fill-opacity=".13"/>
+      <text x="811" y="749.5" fill="#5b6472" text-anchor="middle" font-size="9.5" font-weight="800">PR</text>
+      <text class="node-label" x="838" y="750" font-size="11.5" font-weight="700">Prisma</text>
+      <g opacity="0">
+        <rect x="785.5" y="728.5" width="159" height="33" rx="8" fill="none" stroke="#5b6472" stroke-width="1.5"/>
+        <circle cx="932" cy="745" r="3" fill="#5b6472" filter="url(#softGlow)"/>
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.806;0.814;.9;1" dur="10s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+</svg>
