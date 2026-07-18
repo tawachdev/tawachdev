@@ -188,8 +188,6 @@
     <circle cx="76" cy="54" r="5" fill="#febc2e"/>
     <circle cx="94" cy="54" r="5" fill="#28c840"/>
     <text class="shell-muted" x="112" y="59" font-size="13">tawachdev@github: ~/profile</text>
-    <text x="1085" y="59" fill="#39d353" font-size="12">OPEN TO WORK</text>
-    <circle class="pulse" cx="1150" cy="54" r="5" fill="#39ff88" filter="url(#glow)"/>
   </g>
 
   <g>
