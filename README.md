@@ -1,9 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=34&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=1000&lines=Mohamed+Taaouach;Full-Stack+Product+Engineer;B2B+SaaS+%7C+Backend+Systems;AI+Automation+%7C+Realtime+Ops;Secure+Production+Software;Open+to+Remote+%26+Freelance)](https://git.io/typing-svg)
-
-**I build secure production-grade full-stack systems for real business operations.**  
-**B2B SaaS, secure backends, payments, admin systems, AI automation, realtime services, and production delivery.**
+<img src="./assets/profile-hero.svg" width="100%" alt="Animated profile banner for Mohamed Taaouach, full-stack product engineer" />
 
 <br/>
 
