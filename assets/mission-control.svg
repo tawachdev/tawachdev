@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Mission control for tawachdev</title>
+  <desc id="desc">A science-fiction mission dashboard showing ForgeLens, confidential production work, and availability for remote work.</desc>
+  <defs>
+    <pattern id="missionGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path class="grid-line" d="M22 0H0V22" fill="none" stroke-opacity=".07"/>
+    </pattern>
+    <linearGradient id="darkPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1210"/>
+      <stop offset="1" stop-color="#070b09"/>
+    </linearGradient>
+    <linearGradient id="scanBeam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22c55e" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="missionRoute0" d="M590 278L492 233" class="graph-line"/><path id="missionRoute1" d="M590 278L586 205" class="graph-line"/><path id="missionRoute2" d="M590 278L664 244" class="graph-line"/><path id="missionRoute3" d="M590 278L514 330" class="graph-line"/><path id="missionRoute4" d="M590 278L615 355" class="graph-line"/><path id="missionRoute5" d="M590 278L688 316" class="graph-line"/>
+  </defs>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #ffffff;
+      --canvas-border: #d0d7de;
+      --grid: #d8dee4;
+      --header: #f6f8fa;
+      --panel: #ffffff;
+      --panel-border: #afb8c1;
+      --node: #f6f8fa;
+      --node-border: #d0d7de;
+      --text: #1f2328;
+      --muted: #57606a;
+      --faint: #8c959f;
+      --line: #afb8c1;
+      --green: #1a7f37;
+      --green-soft: #dafbe1;
+      --amber: #9a6700;
+      --amber-soft: #fff8c5;
+      --blue: #0969da;
+      --blue-soft: #ddf4ff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --canvas: #0d1117;
+        --canvas-border: #30363d;
+        --grid: #21262d;
+        --header: #0b0f12;
+        --panel: url(#darkPanel);
+        --panel-border: #263d30;
+        --node: #0d1117;
+        --node-border: #30363d;
+        --text: #f0f6fc;
+        --muted: #8b949e;
+        --faint: #6e7681;
+        --line: #2f4c39;
+        --green: #39d353;
+        --green-soft: #0f2b1b;
+        --amber: #e3b341;
+        --amber-soft: #2d240b;
+        --blue: #58a6ff;
+        --blue-soft: #0c2d4f;
+      }
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .canvas { fill: var(--canvas); }
+    .canvas-border { stroke: var(--canvas-border); }
+    .grid-line { stroke: var(--grid); }
+    .header-panel { fill: var(--header); stroke: var(--canvas-border); }
+    .panel { fill: var(--panel); stroke: var(--panel-border); }
+    .node-panel { fill: var(--node); stroke: var(--node-border); }
+    .graph-node { fill: var(--node); stroke: var(--node-border); }
+    .graph-line { fill: none; stroke: var(--line); stroke-width: 1.2; }
+    .title { fill: var(--text); }
+    .muted { fill: var(--muted); }
+    .faint { fill: var(--faint); }
+    .green { fill: var(--green); }
+    .amber { fill: var(--amber); }
+    .blue { fill: var(--blue); }
+    .green-panel { fill: var(--green-soft); stroke: var(--green); }
+    .amber-panel { fill: var(--amber-soft); stroke: var(--amber); }
+    .blue-panel { fill: var(--blue-soft); stroke: var(--blue); }
+    @media (prefers-reduced-motion: reduce) {
+      animate, animateMotion { display: none; }
+    }
+  </style>
+
+  <rect class="canvas" width="1200" height="560" rx="28"/>
+  <rect width="1200" height="560" rx="28" fill="url(#missionGrid)"/>
+  <rect class="canvas-border" x="28" y="26" width="1144" height="508" rx="22" fill="none"/>
+
+  <g class="mono">
+    <rect class="header-panel" x="46" y="42" width="1108" height="72" rx="14"/>
+    <circle cx="66" cy="62" r="4.5" fill="#ff5f57"/>
+    <circle cx="82" cy="62" r="4.5" fill="#febc2e"/>
+    <circle cx="98" cy="62" r="4.5" fill="#28c840"/>
+    <text class="muted" x="116" y="66" font-size="11.5">tawachdev@github: ~/operations</text>
+    <text class="title" x="66" y="94" font-size="17" font-weight="800" letter-spacing="1.2">MISSION CONTROL</text>
+    <text class="faint" x="241" y="94" font-size="9.5" letter-spacing="1">// WORK / TRUST / AVAILABILITY</text>
+    <text class="green" x="1086" y="66" text-anchor="end" font-size="10">PUBLIC SIGNAL ONLINE</text>
+    <circle cx="1118" cy="62" r="4" fill="var(--green)" filter="url(#glow)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text class="faint" x="1086" y="94" text-anchor="end" font-size="9">3 OPERATIONAL CHANNELS</text>
+  </g>
+
+  <g class="mono">
+    <rect class="panel" x="58" y="142" width="676" height="336" rx="16"/>
+    <text class="green" x="78" y="170" font-size="10" font-weight="800">PRIMARY MISSION // ACTIVE</text>
+    <text class="title" x="78" y="205" font-size="25" font-weight="900" letter-spacing="1.3">ForgeLens</text>
+    <text class="title" x="78" y="229" font-size="12.5" font-weight="700">LOCAL-FIRST REPOSITORY INTELLIGENCE</text>
+    <text class="muted" x="78" y="257" font-size="10.5">Maps risky areas, builds AI-ready context,</text>
+    <text class="muted" x="78" y="274" font-size="10.5">and tracks baseline drift without cloud lock-in.</text>
+
+    <rect class="green-panel" x="78" y="304" width="132" height="34" rx="8"/>
+    <text class="green" x="144" y="325" text-anchor="middle" font-size="9.5" font-weight="800">LOCAL-FIRST</text>
+    <rect class="blue-panel" x="218" y="304" width="132" height="34" rx="8"/>
+    <text class="blue" x="284" y="325" text-anchor="middle" font-size="9.5" font-weight="800">RISK MAPPING</text>
+    <rect class="node-panel" x="78" y="346" width="132" height="34" rx="8"/>
+    <text class="title" x="144" y="367" text-anchor="middle" font-size="9.5" font-weight="800">AI CONTEXT</text>
+    <rect class="node-panel" x="218" y="346" width="132" height="34" rx="8"/>
+    <text class="title" x="284" y="367" text-anchor="middle" font-size="9.5" font-weight="800">DRIFT TRACKING</text>
+
+    <text class="faint" x="78" y="438" font-size="8.5">REPOSITORY ENDPOINT</text>
+    <text class="blue" x="205" y="438" font-size="9.5" font-weight="800">github.com/tawachdev/forgelens</text>
+    <text class="faint" x="78" y="458" font-size="8.5">LIVE EXAMPLES</text>
+    <text class="green" x="205" y="458" font-size="9.5" font-weight="800">forgelens-lyart.vercel.app/examples</text>
+
+    <path id="missionRoute0" d="M590 278L492 233" class="graph-line"/><path id="missionRoute1" d="M590 278L586 205" class="graph-line"/><path id="missionRoute2" d="M590 278L664 244" class="graph-line"/><path id="missionRoute3" d="M590 278L514 330" class="graph-line"/><path id="missionRoute4" d="M590 278L615 355" class="graph-line"/><path id="missionRoute5" d="M590 278L688 316" class="graph-line"/>
+    <circle class="node-panel" cx="590" cy="278" r="42"/>
+    <circle cx="590" cy="278" r="31" fill="var(--green-soft)" stroke="var(--green)"/>
+    <text class="green" x="590" y="274" text-anchor="middle" font-size="13" font-weight="900">FL</text>
+    <text class="green" x="590" y="288" text-anchor="middle" font-size="7.5">CORE</text>
+    <g>
+              <circle class="graph-node" cx="492" cy="233" r="24"/>
+              <circle cx="492" cy="233" r="18" fill="#3178c6" fill-opacity=".12" stroke="#3178c6" stroke-width="1.2"/>
+              <text x="492" y="236.5" text-anchor="middle" fill="#3178c6" font-size="9" font-weight="800">SRC</text>
+              <circle r="3" fill="#3178c6" filter="url(#glow)">
+                <animateMotion dur="2.80s" begin="-0.00s" repeatCount="indefinite"><mpath href="#missionRoute0"/></animateMotion>
+              </circle>
+            </g><g>
+              <circle class="graph-node" cx="586" cy="205" r="24"/>
+              <circle cx="586" cy="205" r="18" fill="#f97316" fill-opacity=".12" stroke="#f97316" stroke-width="1.2"/>
+              <text x="586" y="208.5" text-anchor="middle" fill="#f97316" font-size="9" font-weight="800">API</text>
+              <circle r="3" fill="#f97316" filter="url(#glow)">
+                <animateMotion dur="3.03s" begin="-0.37s" repeatCount="indefinite"><mpath href="#missionRoute1"/></animateMotion>
+              </circle>
+            </g><g>
+              <circle class="graph-node" cx="664" cy="244" r="24"/>
+              <circle cx="664" cy="244" r="18" fill="#4169e1" fill-opacity=".12" stroke="#4169e1" stroke-width="1.2"/>
+              <text x="664" y="247.5" text-anchor="middle" fill="#4169e1" font-size="9" font-weight="800">DB</text>
+              <circle r="3" fill="#4169e1" filter="url(#glow)">
+                <animateMotion dur="3.26s" begin="-0.74s" repeatCount="indefinite"><mpath href="#missionRoute2"/></animateMotion>
+              </circle>
+            </g><g>
+              <circle class="graph-node" cx="514" cy="330" r="24"/>
+              <circle cx="514" cy="330" r="18" fill="#a855f7" fill-opacity=".12" stroke="#a855f7" stroke-width="1.2"/>
+              <text x="514" y="333.5" text-anchor="middle" fill="#a855f7" font-size="9" font-weight="800">DOC</text>
+              <circle r="3" fill="#a855f7" filter="url(#glow)">
+                <animateMotion dur="3.49s" begin="-1.11s" repeatCount="indefinite"><mpath href="#missionRoute3"/></animateMotion>
+              </circle>
+            </g><g>
+              <circle class="graph-node" cx="615" cy="355" r="24"/>
+              <circle cx="615" cy="355" r="18" fill="#2088ff" fill-opacity=".12" stroke="#2088ff" stroke-width="1.2"/>
+              <text x="615" y="358.5" text-anchor="middle" fill="#2088ff" font-size="9" font-weight="800">CI</text>
+              <circle r="3" fill="#2088ff" filter="url(#glow)">
+                <animateMotion dur="3.72s" begin="-1.48s" repeatCount="indefinite"><mpath href="#missionRoute4"/></animateMotion>
+              </circle>
+            </g><g>
+              <circle class="graph-node" cx="688" cy="316" r="24"/>
+              <circle cx="688" cy="316" r="18" fill="#22c55e" fill-opacity=".12" stroke="#22c55e" stroke-width="1.2"/>
+              <text x="688" y="319.5" text-anchor="middle" fill="#22c55e" font-size="9" font-weight="800">SEC</text>
+              <circle r="3" fill="#22c55e" filter="url(#glow)">
+                <animateMotion dur="3.95s" begin="-1.85s" repeatCount="indefinite"><mpath href="#missionRoute5"/></animateMotion>
+              </circle>
+            </g>
+    <rect x="458" y="177" width="270" height="2" fill="url(#scanBeam)">
+      <animate attributeName="y" values="177;442;177" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g class="mono">
+    <rect class="panel" x="758" y="142" width="384" height="154" rx="16"/>
+    <text class="amber" x="778" y="169" font-size="10" font-weight="800">CONFIDENTIAL OPERATIONS</text>
+    <text class="title" x="778" y="198" font-size="15" font-weight="800">PRIVATE PRODUCTION WORK</text>
+    <text class="muted" x="778" y="221" font-size="9.5">Architecture and delivery evidence only.</text>
+    <text class="muted" x="778" y="238" font-size="9.5">Client data and internal logic stay redacted.</text>
+    <rect class="amber-panel" x="778" y="253" width="94" height="25" rx="7"/>
+    <text class="amber" x="825" y="269" text-anchor="middle" font-size="8.5" font-weight="800">PROTECTED</text>
+    <rect class="node-panel" x="884" y="253" width="76" height="25" rx="7"/>
+    <text class="faint" x="922" y="269" text-anchor="middle" font-size="8.5">CLIENT</text>
+    <rect class="node-panel" x="968" y="253" width="76" height="25" rx="7"/>
+    <text class="faint" x="1006" y="269" text-anchor="middle" font-size="8.5">SAAS</text>
+    <rect class="node-panel" x="1052" y="253" width="70" height="25" rx="7"/>
+    <text class="faint" x="1087" y="269" text-anchor="middle" font-size="8.5">OPS</text>
+  </g>
+
+  <g class="mono">
+    <rect class="panel" x="758" y="320" width="384" height="158" rx="16"/>
+    <text class="green" x="778" y="347" font-size="10" font-weight="800">AVAILABILITY BEACON // OPEN</text>
+    <text class="title" x="778" y="376" font-size="15" font-weight="800">REMOTE AND INTERNATIONAL</text>
+    <text class="muted" x="778" y="398" font-size="9.5">Based in Morocco. Available across time zones.</text>
+    <rect class="green-panel" x="778" y="418" width="106" height="34" rx="8"/>
+    <text class="green" x="831" y="439" text-anchor="middle" font-size="8.8" font-weight="800">FULL-TIME</text>
+    <rect class="blue-panel" x="892" y="418" width="106" height="34" rx="8"/>
+    <text class="blue" x="945" y="439" text-anchor="middle" font-size="8.8" font-weight="800">CONTRACT</text>
+    <rect class="node-panel" x="1006" y="418" width="116" height="34" rx="8"/>
+    <text class="title" x="1064" y="439" text-anchor="middle" font-size="8.8" font-weight="800">FREELANCE</text>
+    <circle cx="1097" cy="351" r="24" fill="none" stroke="var(--green)" stroke-opacity=".16">
+      <animate attributeName="r" values="7;30" dur="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1097" cy="351" r="4" fill="var(--green)" filter="url(#glow)"/>
+  </g>
+</svg>
