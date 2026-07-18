@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering system map for tawachdev</title>
-  <desc id="desc">A science-fiction engineering capability matrix with four connected modules and secondary technology nodes.</desc>
+  <title id="title">Engineering stack for tawachdev</title>
+  <desc id="desc">The tools Mohamed Taaouach uses to design, build, test, and ship full-stack products.</desc>
   <defs>
     <pattern id="matrixGrid" width="22" height="22" patternUnits="userSpaceOnUse">
       <path class="grid-line" d="M22 0H0V22" fill="none" stroke-opacity=".07"/>
@@ -91,14 +91,14 @@
     <circle cx="66" cy="62" r="4.5" fill="#ff5f57"/>
     <circle cx="82" cy="62" r="4.5" fill="#febc2e"/>
     <circle cx="98" cy="62" r="4.5" fill="#28c840"/>
-    <text class="muted" x="116" y="66" font-size="11.5">tawachdev@github: ~/capabilities</text>
-    <text class="module-title" x="66" y="94" font-size="17" font-weight="800" letter-spacing="1.2">ENGINEERING SYSTEM MAP</text>
-    <text class="faint" x="343" y="94" font-size="9.5" letter-spacing="1">// PUBLIC CAPABILITY MATRIX</text>
-    <text class="status" x="1086" y="66" text-anchor="end" font-size="10">ALL SYSTEMS NOMINAL</text>
+    <text class="muted" x="116" y="66" font-size="11.5">tawachdev@github: ~/stack</text>
+    <text class="module-title" x="66" y="94" font-size="17" font-weight="800" letter-spacing="1.2">MY ENGINEERING STACK</text>
+    <text class="faint" x="343" y="94" font-size="9.5" letter-spacing="1">// TOOLS I USE TO BUILD PRODUCTS</text>
+    <text class="status" x="1086" y="66" text-anchor="end" font-size="10">FULL-STACK PRODUCT ENGINEER</text>
     <circle class="status-dot" cx="1118" cy="62" r="4" filter="url(#softGlow)">
       <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text class="faint" x="1086" y="94" text-anchor="end" font-size="9">4 MODULES / 43 SIGNALS</text>
+    <text class="faint" x="1086" y="94" text-anchor="end" font-size="9">4 AREAS / 43 TOOLS</text>
   </g>
 
   <g fill="none" stroke-width="1.2" class="signal-line">
@@ -117,9 +117,9 @@
   <g>
       <rect class="module-panel" x="58" y="142" width="520" height="222" rx="16"/>
       <path class="module-accent" d="M75 186H561"/>
-      <text class="module-id" x="76" y="169" font-size="10">MODULE 01</text>
-      <text class="module-title" x="157" y="170" font-size="15" font-weight="800" letter-spacing="1.1">CORE RUNTIME</text>
-      <text class="module-subtitle" x="561" y="169" text-anchor="end" font-size="8.5" letter-spacing=".7">APPLICATION FOUNDATION</text>
+      <text class="module-id" x="76" y="169" font-size="10">01 / PRODUCT</text>
+      <text class="module-title" x="174" y="170" font-size="15" font-weight="800" letter-spacing="1.1">PRODUCT CORE</text>
+      <text class="module-subtitle" x="561" y="169" text-anchor="end" font-size="8.5" letter-spacing=".7">DAILY FULL-STACK WORK</text>
       <g>
       <rect class="tech-node" x="76" y="202" width="232" height="34" rx="8"/>
       <rect x="84" y="209" width="36" height="20" rx="5" fill="#3178c6" fill-opacity=".13"/>
@@ -204,9 +204,9 @@
     </g><g>
       <rect class="module-panel" x="622" y="142" width="520" height="222" rx="16"/>
       <path class="module-accent" d="M639 186H1125"/>
-      <text class="module-id" x="640" y="169" font-size="10">MODULE 02</text>
-      <text class="module-title" x="721" y="170" font-size="15" font-weight="800" letter-spacing="1.1">SECURE BACKEND</text>
-      <text class="module-subtitle" x="1125" y="169" text-anchor="end" font-size="8.5" letter-spacing=".7">TRUST AND TRANSACTION LAYER</text>
+      <text class="module-id" x="640" y="169" font-size="10">02 / BACKEND</text>
+      <text class="module-title" x="746" y="170" font-size="15" font-weight="800" letter-spacing="1.1">BACKEND AND DATA</text>
+      <text class="module-subtitle" x="1125" y="169" text-anchor="end" font-size="8.5" letter-spacing=".7">SECURITY AND PAYMENTS</text>
       <g>
       <rect class="tech-node" x="640" y="202" width="232" height="34" rx="8"/>
       <rect x="648" y="209" width="36" height="20" rx="5" fill="#f97316" fill-opacity=".13"/>
@@ -291,9 +291,9 @@
     </g><g>
       <rect class="module-panel" x="58" y="396" width="520" height="222" rx="16"/>
       <path class="module-accent" d="M75 440H561"/>
-      <text class="module-id" x="76" y="423" font-size="10">MODULE 03</text>
-      <text class="module-title" x="157" y="424" font-size="15" font-weight="800" letter-spacing="1.1">AI AUTOMATION</text>
-      <text class="module-subtitle" x="561" y="423" text-anchor="end" font-size="8.5" letter-spacing=".7">INTELLIGENCE AND REALTIME</text>
+      <text class="module-id" x="76" y="423" font-size="10">03 / AI</text>
+      <text class="module-title" x="143" y="424" font-size="15" font-weight="800" letter-spacing="1.1">AI AND AUTOMATION</text>
+      <text class="module-subtitle" x="561" y="423" text-anchor="end" font-size="8.5" letter-spacing=".7">REALTIME AND WORKFLOWS</text>
       <g>
       <rect class="tech-node" x="76" y="456" width="232" height="34" rx="8"/>
       <rect x="84" y="463" width="36" height="20" rx="5" fill="#10a37f" fill-opacity=".13"/>
@@ -378,8 +378,8 @@
     </g><g>
       <rect class="module-panel" x="622" y="396" width="520" height="222" rx="16"/>
       <path class="module-accent" d="M639 440H1125"/>
-      <text class="module-id" x="640" y="423" font-size="10">MODULE 04</text>
-      <text class="module-title" x="721" y="424" font-size="15" font-weight="800" letter-spacing="1.1">DELIVERY NETWORK</text>
+      <text class="module-id" x="640" y="423" font-size="10">04 / DELIVERY</text>
+      <text class="module-title" x="755" y="424" font-size="15" font-weight="800" letter-spacing="1.1">SHIP AND OPERATE</text>
       <text class="module-subtitle" x="1125" y="423" text-anchor="end" font-size="8.5" letter-spacing=".7">INFRASTRUCTURE AND QUALITY</text>
       <g>
       <rect class="tech-node" x="640" y="456" width="232" height="34" rx="8"/>
@@ -466,14 +466,14 @@
 
   <g class="mono">
     <rect class="hub" x="548" y="363" width="104" height="34" rx="9"/>
-    <text class="hub-text" x="600" y="377" text-anchor="middle" font-size="9" font-weight="800">TWCH / CORE</text>
-    <text class="hub-text" x="600" y="390" text-anchor="middle" font-size="7.5">SIGNAL BUS</text>
+    <text class="hub-text" x="600" y="377" text-anchor="middle" font-size="9" font-weight="800">TAWACHDEV</text>
+    <text class="hub-text" x="600" y="390" text-anchor="middle" font-size="7.5">FULL-STACK</text>
   </g>
 
   <g class="mono">
     <path class="signal-line" d="M66 658H1134"/>
-    <text class="module-title" x="66" y="672" font-size="11" font-weight="800" letter-spacing="1">SECONDARY TOOLCHAIN // SATELLITE NODES</text>
-    <text class="faint" x="1134" y="672" text-anchor="end" font-size="8.5">AVAILABLE ON DEMAND</text>
+    <text class="module-title" x="66" y="672" font-size="11" font-weight="800" letter-spacing="1">ALSO WORK WITH</text>
+    <text class="faint" x="1134" y="672" text-anchor="end" font-size="8.5">WHEN THE PROJECT NEEDS IT</text>
     <g>
       <rect class="tech-node" x="66" y="686" width="142" height="34" rx="8"/>
       <rect x="74" y="693" width="36" height="20" rx="5" fill="#3776ab" fill-opacity=".13"/>

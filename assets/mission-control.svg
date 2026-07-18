@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">Mission control for tawachdev</title>
-  <desc id="desc">A science-fiction mission dashboard showing ForgeLens, confidential production work, and availability for remote work.</desc>
+  <title id="title">Selected work and availability for tawachdev</title>
+  <desc id="desc">Mohamed Taaouach's featured project, private production experience, and availability for remote work.</desc>
   <defs>
     <pattern id="missionGrid" width="22" height="22" patternUnits="userSpaceOnUse">
       <path class="grid-line" d="M22 0H0V22" fill="none" stroke-opacity=".07"/>
@@ -96,19 +96,19 @@
     <circle cx="66" cy="62" r="4.5" fill="#ff5f57"/>
     <circle cx="82" cy="62" r="4.5" fill="#febc2e"/>
     <circle cx="98" cy="62" r="4.5" fill="#28c840"/>
-    <text class="muted" x="116" y="66" font-size="11.5">tawachdev@github: ~/operations</text>
-    <text class="title" x="66" y="94" font-size="17" font-weight="800" letter-spacing="1.2">MISSION CONTROL</text>
-    <text class="faint" x="241" y="94" font-size="9.5" letter-spacing="1">// WORK / TRUST / AVAILABILITY</text>
-    <text class="green" x="1086" y="66" text-anchor="end" font-size="10">PUBLIC SIGNAL ONLINE</text>
+    <text class="muted" x="116" y="66" font-size="11.5">tawachdev@github: ~/work</text>
+    <text class="title" x="66" y="94" font-size="17" font-weight="800" letter-spacing="1.2">SELECTED WORK</text>
+    <text class="faint" x="210" y="94" font-size="9.5" letter-spacing="1">// PROJECTS / EXPERIENCE / AVAILABILITY</text>
+    <text class="green" x="1086" y="66" text-anchor="end" font-size="10">OPEN TO REMOTE WORK</text>
     <circle cx="1118" cy="62" r="4" fill="var(--green)" filter="url(#glow)">
       <animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text class="faint" x="1086" y="94" text-anchor="end" font-size="9">3 OPERATIONAL CHANNELS</text>
+    <text class="faint" x="1086" y="94" text-anchor="end" font-size="9">EMAIL / GITHUB / LINKEDIN</text>
   </g>
 
   <g class="mono">
     <rect class="panel" x="58" y="142" width="676" height="336" rx="16"/>
-    <text class="green" x="78" y="170" font-size="10" font-weight="800">PRIMARY MISSION // ACTIVE</text>
+    <text class="green" x="78" y="170" font-size="10" font-weight="800">FEATURED PROJECT</text>
     <text class="title" x="78" y="205" font-size="25" font-weight="900" letter-spacing="1.3">ForgeLens</text>
     <text class="title" x="78" y="229" font-size="12.5" font-weight="700">LOCAL-FIRST REPOSITORY INTELLIGENCE</text>
     <text class="muted" x="78" y="257" font-size="10.5">Maps risky areas, builds AI-ready context,</text>
@@ -123,7 +123,7 @@
     <rect class="node-panel" x="218" y="346" width="132" height="34" rx="8"/>
     <text class="title" x="284" y="367" text-anchor="middle" font-size="9.5" font-weight="800">DRIFT TRACKING</text>
 
-    <text class="faint" x="78" y="438" font-size="8.5">REPOSITORY ENDPOINT</text>
+    <text class="faint" x="78" y="438" font-size="8.5">GITHUB</text>
     <text class="blue" x="205" y="438" font-size="9.5" font-weight="800">github.com/tawachdev/forgelens</text>
     <text class="faint" x="78" y="458" font-size="8.5">LIVE EXAMPLES</text>
     <text class="green" x="205" y="458" font-size="9.5" font-weight="800">forgelens-lyart.vercel.app/examples</text>
@@ -132,7 +132,7 @@
     <circle class="node-panel" cx="590" cy="278" r="42"/>
     <circle cx="590" cy="278" r="31" fill="var(--green-soft)" stroke="var(--green)"/>
     <text class="green" x="590" y="274" text-anchor="middle" font-size="13" font-weight="900">FL</text>
-    <text class="green" x="590" y="288" text-anchor="middle" font-size="7.5">CORE</text>
+    <text class="green" x="590" y="288" text-anchor="middle" font-size="7.5">APP</text>
     <g>
               <circle class="graph-node" cx="492" cy="233" r="24"/>
               <circle cx="492" cy="233" r="18" fill="#3178c6" fill-opacity=".12" stroke="#3178c6" stroke-width="1.2"/>
@@ -183,12 +183,12 @@
 
   <g class="mono">
     <rect class="panel" x="758" y="142" width="384" height="154" rx="16"/>
-    <text class="amber" x="778" y="169" font-size="10" font-weight="800">CONFIDENTIAL OPERATIONS</text>
-    <text class="title" x="778" y="198" font-size="15" font-weight="800">PRIVATE PRODUCTION WORK</text>
-    <text class="muted" x="778" y="221" font-size="9.5">Architecture and delivery evidence only.</text>
-    <text class="muted" x="778" y="238" font-size="9.5">Client data and internal logic stay redacted.</text>
+    <text class="amber" x="778" y="169" font-size="10" font-weight="800">PRODUCTION EXPERIENCE</text>
+    <text class="title" x="778" y="198" font-size="15" font-weight="800">CLIENT AND SAAS WORK</text>
+    <text class="muted" x="778" y="221" font-size="9.5">Most client work stays private.</text>
+    <text class="muted" x="778" y="238" font-size="9.5">I share architecture and delivery evidence.</text>
     <rect class="amber-panel" x="778" y="253" width="94" height="25" rx="7"/>
-    <text class="amber" x="825" y="269" text-anchor="middle" font-size="8.5" font-weight="800">PROTECTED</text>
+    <text class="amber" x="825" y="269" text-anchor="middle" font-size="8.5" font-weight="800">PRIVATE</text>
     <rect class="node-panel" x="884" y="253" width="76" height="25" rx="7"/>
     <text class="faint" x="922" y="269" text-anchor="middle" font-size="8.5">CLIENT</text>
     <rect class="node-panel" x="968" y="253" width="76" height="25" rx="7"/>
@@ -199,8 +199,8 @@
 
   <g class="mono">
     <rect class="panel" x="758" y="320" width="384" height="158" rx="16"/>
-    <text class="green" x="778" y="347" font-size="10" font-weight="800">AVAILABILITY BEACON // OPEN</text>
-    <text class="title" x="778" y="376" font-size="15" font-weight="800">REMOTE AND INTERNATIONAL</text>
+    <text class="green" x="778" y="347" font-size="10" font-weight="800">CURRENT AVAILABILITY</text>
+    <text class="title" x="778" y="376" font-size="15" font-weight="800">OPEN TO REMOTE WORK</text>
     <text class="muted" x="778" y="398" font-size="9.5">Based in Morocco. Available across time zones.</text>
     <rect class="green-panel" x="778" y="418" width="106" height="34" rx="8"/>
     <text class="green" x="831" y="439" text-anchor="middle" font-size="8.8" font-weight="800">FULL-TIME</text>
