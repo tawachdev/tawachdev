@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1020" viewBox="0 0 1240 1020" role="img" aria-label="Full stack map of Mohamed Taaouach across four areas: Product core (TypeScript, React, Next.js, Node.js, PostgreSQL, Drizzle, Tailwind, shadcn), Backend and data (REST APIs, server actions, auth, validation, rate limits, multi-tenancy, payments, audit logs), AI and automation (AI agents, LLM workflows, RAG, tool calling, voice AI, realtime, notifications, human approval), and delivery (Cloudflare, Vercel, Docker, GitHub, CI/CD, Linux, Playwright, observability). Also works with Python, Rust, PHP, Laravel, Java, C++, Shell, Astro, MongoDB, SQLite and Prisma.">
+  <style>
+    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --inner: rgba(127,140,158,0.07); --inner-line: rgba(127,140,158,0.22); --strong: #0F1B2D; --body: #33475C; --muted: #64748B; --blue: #0284C7; --rose: #E11D48; --green: #16A34A; --amber: #B45309; --purple: #7C3AED; }
+    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --inner: rgba(139,152,169,0.08); --inner-line: rgba(139,152,169,0.20); --strong: #E5EDF5; --body: #C9D4E0; --muted: #8B98A9; --blue: #38BDF8; --rose: #F43F5E; --green: #22C55E; --amber: #FBBF24; --purple: #A78BFA; } }
+    .panel { fill: var(--glass); stroke: var(--glass-line); stroke-width: 1.5; }
+    .inner { fill: var(--inner); stroke: var(--inner-line); stroke-width: 1; }
+    .strong { fill: var(--strong); } .body { fill: var(--body); } .muted { fill: var(--muted); }
+    .blue { fill: var(--blue); } .rose { fill: var(--rose); } .green { fill: var(--green); } .amber { fill: var(--amber); } .purple { fill: var(--purple); }
+    .ab-blue { fill: var(--blue); fill-opacity: 0.16; } .ab-rose { fill: var(--rose); fill-opacity: 0.16; } .ab-green { fill: var(--green); fill-opacity: 0.16; } .ab-amber { fill: var(--amber); fill-opacity: 0.16; } .ab-purple { fill: var(--purple); fill-opacity: 0.16; } .ab-dim { fill: var(--muted); fill-opacity: 0.14; }
+    .chip-blue { stroke: var(--blue); stroke-opacity: 0.45; } .chip-rose { stroke: var(--rose); stroke-opacity: 0.45; } .chip-green { stroke: var(--green); stroke-opacity: 0.45; } .chip-amber { stroke: var(--amber); stroke-opacity: 0.45; } .chip-purple { stroke: var(--purple); stroke-opacity: 0.45; } .chip-dim { stroke: var(--inner-line); }
+    .connector { fill: var(--inner); stroke: var(--green); stroke-opacity: 0.6; stroke-width: 1.5; }
+  </style>
+  <rect x="20" y="20" width="575" height="380" rx="16" class="panel"/>
+  <text x="48" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="800"><tspan class="green">01</tspan><tspan class="muted"> / PRODUCT</tspan></text>
+  <text x="170" y="73" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="1" class="strong">PRODUCT CORE</text>
+  <text x="571" y="110" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" class="muted" letter-spacing="1">DAILY FULL-STACK WORK</text>
+  <line x1="44" y1="96" x2="571" y2="96" class="inner"/>
+    <rect x="44" y="124" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="52" y="134" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="71" y="150.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">TS</text>
+    <text x="98" y="152" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">TypeScript</text>
+    <circle cx="292" cy="146" r="3.5" class="blue"/>
+    <rect x="331" y="124" width="262" height="44" rx="10" class="inner chip-purple"/>
+    <rect x="339" y="134" width="38" height="24" rx="6" class="ab-purple"/>
+    <text x="358" y="150.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="purple">RE</text>
+    <text x="385" y="152" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">React</text>
+    <circle cx="579" cy="146" r="3.5" class="purple"/>
+    <rect x="44" y="176" width="262" height="44" rx="10" class="inner chip-rose"/>
+    <rect x="52" y="186" width="38" height="24" rx="6" class="ab-rose"/>
+    <text x="71" y="202.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="rose">NX</text>
+    <text x="98" y="204" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Next.js</text>
+    <circle cx="292" cy="198" r="3.5" class="rose"/>
+    <rect x="331" y="176" width="262" height="44" rx="10" class="inner chip-green"/>
+    <rect x="339" y="186" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="358" y="202.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">ND</text>
+    <text x="385" y="204" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Node.js</text>
+    <circle cx="579" cy="198" r="3.5" class="green"/>
+    <rect x="44" y="228" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="52" y="238" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="71" y="254.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">PG</text>
+    <text x="98" y="256" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">PostgreSQL</text>
+    <circle cx="292" cy="250" r="3.5" class="blue"/>
+    <rect x="331" y="228" width="262" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="339" y="238" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="358" y="254.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">DR</text>
+    <text x="385" y="256" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Drizzle ORM</text>
+    <circle cx="579" cy="250" r="3.5" class="amber"/>
+    <rect x="44" y="280" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="52" y="290" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="71" y="306.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">TW</text>
+    <text x="98" y="308" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Tailwind CSS</text>
+    <circle cx="292" cy="302" r="3.5" class="blue"/>
+    <rect x="331" y="280" width="262" height="44" rx="10" class="inner chip-dim"/>
+    <rect x="339" y="290" width="38" height="24" rx="6" class="ab-dim"/>
+    <text x="358" y="306.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="dim">UI</text>
+    <text x="385" y="308" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">shadcn/ui</text>
+    <circle cx="579" cy="302" r="3.5" class="dim"/>
+  <rect x="645" y="20" width="575" height="380" rx="16" class="panel"/>
+  <text x="673" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="800"><tspan class="green">02</tspan><tspan class="muted"> / BACKEND</tspan></text>
+  <text x="795" y="73" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="1" class="strong">BACKEND AND DATA</text>
+  <text x="1196" y="110" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" class="muted" letter-spacing="1">SECURITY AND PAYMENTS</text>
+  <line x1="669" y1="96" x2="1196" y2="96" class="inner"/>
+    <rect x="669" y="124" width="262" height="44" rx="10" class="inner chip-rose"/>
+    <rect x="677" y="134" width="38" height="24" rx="6" class="ab-rose"/>
+    <text x="696" y="150.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="rose">API</text>
+    <text x="723" y="152" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">REST APIs</text>
+    <circle cx="917" cy="146" r="3.5" class="rose"/>
+    <rect x="956" y="124" width="262" height="44" rx="10" class="inner chip-dim"/>
+    <rect x="964" y="134" width="38" height="24" rx="6" class="ab-dim"/>
+    <text x="983" y="150.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="dim">SA</text>
+    <text x="1010" y="152" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Server Actions</text>
+    <circle cx="1204" cy="146" r="3.5" class="dim"/>
+    <rect x="669" y="176" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="677" y="186" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="696" y="202.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">AU</text>
+    <text x="723" y="204" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Auth / RBAC</text>
+    <circle cx="917" cy="198" r="3.5" class="blue"/>
+    <rect x="956" y="176" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="964" y="186" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="983" y="202.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">V</text>
+    <text x="1010" y="204" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Validation</text>
+    <circle cx="1204" cy="198" r="3.5" class="blue"/>
+    <rect x="669" y="228" width="262" height="44" rx="10" class="inner chip-rose"/>
+    <rect x="677" y="238" width="38" height="24" rx="6" class="ab-rose"/>
+    <text x="696" y="254.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="rose">RL</text>
+    <text x="723" y="256" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Rate Limits</text>
+    <circle cx="917" cy="250" r="3.5" class="rose"/>
+    <rect x="956" y="228" width="262" height="44" rx="10" class="inner chip-purple"/>
+    <rect x="964" y="238" width="38" height="24" rx="6" class="ab-purple"/>
+    <text x="983" y="254.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="purple">MT</text>
+    <text x="1010" y="256" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Multi-Tenancy</text>
+    <circle cx="1204" cy="250" r="3.5" class="purple"/>
+    <rect x="669" y="280" width="262" height="44" rx="10" class="inner chip-purple"/>
+    <rect x="677" y="290" width="38" height="24" rx="6" class="ab-purple"/>
+    <text x="696" y="306.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="purple">PAY</text>
+    <text x="723" y="308" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Payments</text>
+    <circle cx="917" cy="302" r="3.5" class="purple"/>
+    <rect x="956" y="280" width="262" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="964" y="290" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="983" y="306.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">LOG</text>
+    <text x="1010" y="308" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Audit Logs</text>
+    <circle cx="1204" cy="302" r="3.5" class="amber"/>
+  <rect x="20" y="440" width="575" height="380" rx="16" class="panel"/>
+  <text x="48" y="492" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="800"><tspan class="green">03</tspan><tspan class="muted"> / AI</tspan></text>
+  <text x="170" y="493" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="1" class="strong">AI AND AUTOMATION</text>
+  <text x="571" y="530" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" class="muted" letter-spacing="1">REALTIME AND WORKFLOWS</text>
+  <line x1="44" y1="516" x2="571" y2="516" class="inner"/>
+    <rect x="44" y="544" width="262" height="44" rx="10" class="inner chip-green"/>
+    <rect x="52" y="554" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="71" y="570.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">AG</text>
+    <text x="98" y="572" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">AI Agents</text>
+    <circle cx="292" cy="566" r="3.5" class="green"/>
+    <rect x="331" y="544" width="262" height="44" rx="10" class="inner chip-purple"/>
+    <rect x="339" y="554" width="38" height="24" rx="6" class="ab-purple"/>
+    <text x="358" y="570.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="purple">LLM</text>
+    <text x="385" y="572" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">LLM Workflows</text>
+    <circle cx="579" cy="566" r="3.5" class="purple"/>
+    <rect x="44" y="596" width="262" height="44" rx="10" class="inner chip-green"/>
+    <rect x="52" y="606" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="71" y="622.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">RAG</text>
+    <text x="98" y="624" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">RAG</text>
+    <circle cx="292" cy="618" r="3.5" class="green"/>
+    <rect x="331" y="596" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="339" y="606" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="358" y="622.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">TC</text>
+    <text x="385" y="624" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Tool Calling</text>
+    <circle cx="579" cy="618" r="3.5" class="blue"/>
+    <rect x="44" y="648" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="52" y="658" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="71" y="674.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">VA</text>
+    <text x="98" y="676" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Voice AI</text>
+    <circle cx="292" cy="670" r="3.5" class="blue"/>
+    <rect x="331" y="648" width="262" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="339" y="658" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="358" y="674.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">RT</text>
+    <text x="385" y="676" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Realtime</text>
+    <circle cx="579" cy="670" r="3.5" class="amber"/>
+    <rect x="44" y="700" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="52" y="710" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="71" y="726.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">NT</text>
+    <text x="98" y="728" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Notifications</text>
+    <circle cx="292" cy="722" r="3.5" class="blue"/>
+    <rect x="331" y="700" width="262" height="44" rx="10" class="inner chip-green"/>
+    <rect x="339" y="710" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="358" y="726.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">HA</text>
+    <text x="385" y="728" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Human Approval</text>
+    <circle cx="579" cy="722" r="3.5" class="green"/>
+  <rect x="645" y="440" width="575" height="380" rx="16" class="panel"/>
+  <text x="673" y="492" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="800"><tspan class="green">04</tspan><tspan class="muted"> / DELIVERY</tspan></text>
+  <text x="795" y="493" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing="1" class="strong">SHIP AND OPERATE</text>
+  <text x="1196" y="530" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" class="muted" letter-spacing="1">INFRASTRUCTURE AND QUALITY</text>
+  <line x1="669" y1="516" x2="1196" y2="516" class="inner"/>
+    <rect x="669" y="544" width="262" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="677" y="554" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="696" y="570.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">CF</text>
+    <text x="723" y="572" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Cloudflare</text>
+    <circle cx="917" cy="566" r="3.5" class="amber"/>
+    <rect x="956" y="544" width="262" height="44" rx="10" class="inner chip-dim"/>
+    <rect x="964" y="554" width="38" height="24" rx="6" class="ab-dim"/>
+    <text x="983" y="570.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="dim">VE</text>
+    <text x="1010" y="572" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Vercel</text>
+    <circle cx="1204" cy="566" r="3.5" class="dim"/>
+    <rect x="669" y="596" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="677" y="606" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="696" y="622.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">DK</text>
+    <text x="723" y="624" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Docker</text>
+    <circle cx="917" cy="618" r="3.5" class="blue"/>
+    <rect x="956" y="596" width="262" height="44" rx="10" class="inner chip-dim"/>
+    <rect x="964" y="606" width="38" height="24" rx="6" class="ab-dim"/>
+    <text x="983" y="622.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="dim">GH</text>
+    <text x="1010" y="624" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">GitHub</text>
+    <circle cx="1204" cy="618" r="3.5" class="dim"/>
+    <rect x="669" y="648" width="262" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="677" y="658" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="696" y="674.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">CI</text>
+    <text x="723" y="676" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">CI / CD</text>
+    <circle cx="917" cy="670" r="3.5" class="blue"/>
+    <rect x="956" y="648" width="262" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="964" y="658" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="983" y="674.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">LX</text>
+    <text x="1010" y="676" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Linux</text>
+    <circle cx="1204" cy="670" r="3.5" class="amber"/>
+    <rect x="669" y="700" width="262" height="44" rx="10" class="inner chip-green"/>
+    <rect x="677" y="710" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="696" y="726.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">PW</text>
+    <text x="723" y="728" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Playwright</text>
+    <circle cx="917" cy="722" r="3.5" class="green"/>
+    <rect x="956" y="700" width="262" height="44" rx="10" class="inner chip-rose"/>
+    <rect x="964" y="710" width="38" height="24" rx="6" class="ab-rose"/>
+    <text x="983" y="726.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="rose">OB</text>
+    <text x="1010" y="728" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Observability</text>
+    <circle cx="1204" cy="722" r="3.5" class="rose"/>
+  <rect x="545" y="402" width="150" height="46" rx="23" style="fill: var(--strong); fill-opacity: 0.92;"/>
+  <text x="620" y="421" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="800" class="green">TAWACHDEV</text>
+  <text x="620" y="437" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" class="muted" letter-spacing="1">FULL-STACK</text>
+  <text x="20" y="880" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="800" class="strong" letter-spacing="2">ALSO WORK WITH</text>
+  <text x="1220" y="880" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" class="muted" letter-spacing="1">WHEN THE PROJECT NEEDS IT</text>
+    <rect x="57" y="900" width="176" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="65" y="910" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="84" y="926.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">PY</text>
+    <text x="111" y="928" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Python</text>
+    <circle cx="219" cy="922" r="3.5" class="blue"/>
+    <rect x="247" y="900" width="176" height="44" rx="10" class="inner chip-rose"/>
+    <rect x="255" y="910" width="38" height="24" rx="6" class="ab-rose"/>
+    <text x="274" y="926.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="rose">RS</text>
+    <text x="301" y="928" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Rust</text>
+    <circle cx="409" cy="922" r="3.5" class="rose"/>
+    <rect x="437" y="900" width="176" height="44" rx="10" class="inner chip-purple"/>
+    <rect x="445" y="910" width="38" height="24" rx="6" class="ab-purple"/>
+    <text x="464" y="926.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="purple">PHP</text>
+    <text x="491" y="928" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">PHP</text>
+    <circle cx="599" cy="922" r="3.5" class="purple"/>
+    <rect x="627" y="900" width="176" height="44" rx="10" class="inner chip-rose"/>
+    <rect x="635" y="910" width="38" height="24" rx="6" class="ab-rose"/>
+    <text x="654" y="926.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="rose">LV</text>
+    <text x="681" y="928" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Laravel</text>
+    <circle cx="789" cy="922" r="3.5" class="rose"/>
+    <rect x="817" y="900" width="176" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="825" y="910" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="844" y="926.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">JV</text>
+    <text x="871" y="928" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Java</text>
+    <circle cx="979" cy="922" r="3.5" class="amber"/>
+    <rect x="1007" y="900" width="176" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="1015" y="910" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="1034" y="926.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">C++</text>
+    <text x="1061" y="928" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">C++</text>
+    <circle cx="1169" cy="922" r="3.5" class="blue"/>
+    <rect x="152" y="952" width="176" height="44" rx="10" class="inner chip-green"/>
+    <rect x="160" y="962" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="179" y="978.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">SH</text>
+    <text x="206" y="980" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Shell</text>
+    <circle cx="314" cy="974" r="3.5" class="green"/>
+    <rect x="342" y="952" width="176" height="44" rx="10" class="inner chip-amber"/>
+    <rect x="350" y="962" width="38" height="24" rx="6" class="ab-amber"/>
+    <text x="369" y="978.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="amber">AS</text>
+    <text x="396" y="980" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Astro</text>
+    <circle cx="504" cy="974" r="3.5" class="amber"/>
+    <rect x="532" y="952" width="176" height="44" rx="10" class="inner chip-green"/>
+    <rect x="540" y="962" width="38" height="24" rx="6" class="ab-green"/>
+    <text x="559" y="978.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="green">MG</text>
+    <text x="586" y="980" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">MongoDB</text>
+    <circle cx="694" cy="974" r="3.5" class="green"/>
+    <rect x="722" y="952" width="176" height="44" rx="10" class="inner chip-blue"/>
+    <rect x="730" y="962" width="38" height="24" rx="6" class="ab-blue"/>
+    <text x="749" y="978.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="blue">SQ</text>
+    <text x="776" y="980" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">SQLite</text>
+    <circle cx="884" cy="974" r="3.5" class="blue"/>
+    <rect x="912" y="952" width="176" height="44" rx="10" class="inner chip-dim"/>
+    <rect x="920" y="962" width="38" height="24" rx="6" class="ab-dim"/>
+    <text x="939" y="978.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="800" class="dim">PR</text>
+    <text x="966" y="980" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" class="body">Prisma</text>
+    <circle cx="1074" cy="974" r="3.5" class="dim"/>
+</svg>
