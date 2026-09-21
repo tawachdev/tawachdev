@@ -1,12 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="What Mohamed does: full-stack web with TypeScript, React, Next.js, Three.js and PostgreSQL; AI engineering with automation pipelines, AI-ready code context and agent tooling; systems in Rust, C++, Swift and Cloudflare Workers; shipping end to end. Open to remote roles, contracts and freelance.">
-  <rect x="20" y="20" width="1160" height="210" rx="16" fill="#0D1526" stroke="#1E293B" stroke-width="1.5"/>
-  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A9" letter-spacing="3">WHAT I DO</text>
+  <style>
+    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --strong: #0F1B2D; --body: #33475C; --muted: #64748B; --blue: #0284C7; --rose: #E11D48; --amber: #B45309; --purple: #7C3AED; --green: #16A34A; }
+    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --strong: #E5EDF5; --body: #C9D4E0; --muted: #8B98A9; --blue: #38BDF8; --rose: #F43F5E; --amber: #FBBF24; --purple: #A78BFA; --green: #22C55E; } }
+    .panel { fill: var(--glass); stroke: var(--glass-line); stroke-width: 1.5; }
+    .muted { fill: var(--muted); } .body { fill: var(--body); }
+    .blue { fill: var(--blue); } .rose { fill: var(--rose); } .amber { fill: var(--amber); } .purple { fill: var(--purple); } .green { fill: var(--green); }
+  </style>
 
-  <text x="60" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#38BDF8">▸ </tspan><tspan fill="#C9D4E0">Full-stack web — TypeScript · React · Next.js · Three.js · PostgreSQL</tspan></text>
-  <text x="60" y="116" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#F43F5E">▸ </tspan><tspan fill="#C9D4E0">AI engineering — automation pipelines · AI-ready code context · agent tooling</tspan></text>
-  <text x="60" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#FBBF24">▸ </tspan><tspan fill="#C9D4E0">Systems — Rust · C++ · Swift · Cloudflare Workers</tspan></text>
-  <text x="60" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#A78BFA">▸ </tspan><tspan fill="#C9D4E0">End to end — data model → API → UI → tests → CI → deploy</tspan></text>
+  <rect x="20" y="20" width="1160" height="210" rx="16" class="panel"/>
+  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" class="muted" letter-spacing="3">WHAT I DO</text>
 
-  <circle cx="68" cy="202" r="5" fill="#22C55E"/>
-  <text x="84" y="207" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#22C55E">Open to remote roles, contracts, and freelance</text>
+  <text x="60" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan class="blue">▸ </tspan><tspan class="body">Full-stack web — TypeScript · React · Next.js · Three.js · PostgreSQL</tspan></text>
+  <text x="60" y="116" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan class="rose">▸ </tspan><tspan class="body">AI engineering — automation pipelines · AI-ready code context · agent tooling</tspan></text>
+  <text x="60" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan class="amber">▸ </tspan><tspan class="body">Systems — Rust · C++ · Swift · Cloudflare Workers</tspan></text>
+  <text x="60" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan class="purple">▸ </tspan><tspan class="body">End to end — data model → API → UI → tests → CI → deploy</tspan></text>
+
+  <circle cx="68" cy="202" r="5" class="green"/>
+  <text x="84" y="207" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" class="green">Open to remote roles, contracts, and freelance</text>
 </svg>

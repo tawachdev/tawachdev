@@ -1,7 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Forgelens — local-first repo context engine. CLI that scans your repository, maps risky areas, and generates AI-ready context with baseline and drift detection.">
-  <rect x="20" y="25" width="1160" height="100" rx="16" fill="#0D1526" stroke="#1E293B" stroke-width="1.5"/>
+  <style>
+    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --strong: #0F1B2D; --muted: #64748B; }
+    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --strong: #E5EDF5; --muted: #8B98A9; } }
+    .panel { fill: var(--glass); stroke: var(--glass-line); stroke-width: 1.5; }
+    .title { fill: var(--strong); } .muted { fill: var(--muted); }
+  </style>
+  <rect x="20" y="25" width="1160" height="100" rx="16" class="panel"/>
   <rect x="48" y="50" width="50" height="50" rx="12" fill="#38BDF8"/>
   <text x="73" y="83" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#0B1220">FL</text>
-  <text x="122" y="70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#E5EDF5">Forgelens <tspan fill="#8B98A9" font-weight="500">— local-first repo context engine</tspan></text>
-  <text x="122" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8B98A9">repo scanner · risk map · AI-ready context · baseline &amp; drift detection</text>
+  <text x="122" y="70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" class="title">Forgelens <tspan class="muted" font-weight="500">— local-first repo context engine</tspan></text>
+  <text x="122" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" class="muted">repo scanner · risk map · AI-ready context · baseline &amp; drift detection</text>
 </svg>
