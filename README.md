@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/nameplate.svg" width="560" alt="Mohamed Taaouach — Full-Stack Product Engineer" />
+<img src="./assets/nameplate.svg" width="560" alt="Mohamed Taaouach — Product · Full-Stack · AI Engineer" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/taaouach/)
 [![Email](https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:tawachmohmmed399@gmail.com)
@@ -14,21 +14,19 @@
 
 ---
 
-I build secure B2B SaaS, backend systems, and AI automation — shipped end to end: data model, API, UI, tests, CI, deploy. Open to remote roles, contracts, and freelance.
+Product engineer working across the whole stack: full-stack web (TypeScript, Next.js, PostgreSQL), AI engineering (automation pipelines, AI-ready code context, agent tooling), and systems work in Rust, C++, and Swift. I ship end to end — data model, API, UI, tests, CI, deploy. Open to remote roles, contracts, and freelance.
 
-[Forgelens demo](https://forgelens-lyart.vercel.app/examples) · [MiniCraft — play it](https://tawachdev.github.io/minicraft/)
+## Track record
 
-## Stack
+**40+ repositories of shipped work** — SaaS products, client apps, AI tooling, and security systems. Most of it lives in private repos (client and product code); the linked highlights below are public and runnable.
 
-| Layer | Tools I ship with |
-| --- | --- |
-| Frontend | TypeScript, React, Next.js, Three.js |
-| Backend | Node.js, REST, auth & payments flows, serverless (Cloudflare Workers) |
-| Data | PostgreSQL, schema design, migrations |
-| AI | Automation pipelines, AI-ready code context, agent tooling |
-| Craft | Test suites, CI pipelines, security reviews, performance budgets |
+**AI & developer tooling** — [Forgelens](https://github.com/tawachdev/forgelens) (repo context engine) · Forgepilot (Rust) · ForgeShield + ForgeShield-Lab-OS (security) · ForgeRadar · ForgeSense (C++) · Atlas Nexus (Python data platform)
 
-## Featured projects
+**Products & SaaS** — Stadium Pro (booking SaaS family) · Smart Cafe OS · Diyafa OS · Invoicely · Opscore · Islam Plus · Nada Perfume · Dr Kaoui · Jibha · L9itha
+
+**Systems & games** — CodeBop (Rust) · MZKNI (Swift, iOS) · [MiniCraft](https://github.com/tawachdev/minicraft) · mini-doom
+
+## Public highlights
 
 ### [Forgelens](https://github.com/tawachdev/forgelens) — local-first repo context engine
 
@@ -37,6 +35,17 @@ CLI that scans your repository, maps risky areas, and generates AI-ready context
 ### [MiniCraft](https://github.com/tawachdev/minicraft) — voxel sandbox in the browser
 
 Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a behavioral test suite that runs in plain Node. TypeScript + Three.js, zero image assets. [Play it →](https://tawachdev.github.io/minicraft/)
+
+## Stack
+
+| Layer | Tools I ship with |
+| --- | --- |
+| Frontend | TypeScript, React, Next.js, Three.js, Astro |
+| Backend | Node.js, REST, auth & payments flows, serverless (Cloudflare Workers) |
+| Data | PostgreSQL, schema design, migrations |
+| AI | Automation pipelines, AI-ready code context, agent tooling |
+| Systems | Rust, C++, Swift |
+| Craft | Test suites, CI pipelines, security reviews, performance budgets |
 
 ## How I work
 
