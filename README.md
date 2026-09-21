@@ -20,13 +20,13 @@
 
 <img src="./assets/project-forgelens.svg" width="100%" alt="Forgelens — local-first repo context engine: repo scanner, risk map, AI-ready context, baseline and drift detection." />
 
-[![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/forgelens)
-[![Live examples](https://img.shields.io/badge/Live_Examples-38BDF8?style=flat-square&logo=vercel&logoColor=0B1220)](https://forgelens-lyart.vercel.app/examples)
+[![Repo](https://img.shields.io/badge/Repo-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tawachdev/forgelens)
+[![Live examples](https://img.shields.io/badge/Live_Examples-38BDF8?style=for-the-badge&logo=vercel&logoColor=0B1220)](https://forgelens-lyart.vercel.app/examples)
 
 <img src="./assets/project-minicraft.svg" width="100%" alt="MiniCraft — voxel sandbox in the browser: procedural 96 by 96 by 48 world, face-culling meshing, AABB physics, zero assets." />
 
-[![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/minicraft)
-[![Play it](https://img.shields.io/badge/Play_It-6ABE30?style=flat-square&logo=githubpages&logoColor=white)](https://tawachdev.github.io/minicraft/)
+[![Repo](https://img.shields.io/badge/Repo-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tawachdev/minicraft)
+[![Play it](https://img.shields.io/badge/Play_It-6ABE30?style=for-the-badge&logo=githubpages&logoColor=white)](https://tawachdev.github.io/minicraft/)
 
 </div>
 
