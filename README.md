@@ -40,6 +40,4 @@ Daily work on top of these: REST API design · auth & RBAC · payments · multi-
 
 <img src="./assets/section-how.svg" width="100%" alt="How Mohamed works: small reviewable changes with tests; security and correctness as constraints; honest failure modes ship in version one." />
 
-<img src="./assets/section-roadmap.svg" width="100%" alt="More open source coming soon. New projects are in the pipeline and land on this profile first — follow so you don't miss them." />
-
 </div>
