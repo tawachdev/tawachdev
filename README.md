@@ -2,25 +2,25 @@
 
 <img src="./assets/profile-banner.svg" width="100%" alt="Mohamed Taaouach — Full-Stack Product Engineer. Contact buttons, GitHub activity, portrait and profile card." />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/taaouach/)
-[![Email](https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:tawachmohmmed399@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-0B1220?style=for-the-badge&logo=whatsapp&logoColor=22C55E)](https://wa.me/212690764049)
-
 </div>
 
 ---
 
-Product engineer working across the whole stack: full-stack web (TypeScript, Next.js, PostgreSQL), AI engineering (automation pipelines, AI-ready code context, agent tooling), and systems work in Rust, C++, and Swift. I ship end to end — data model, API, UI, tests, CI, deploy. Open to remote roles, contracts, and freelance.
+<div align="center">
+
+| Product engineer across the whole stack |
+| --- |
+| Full-stack web (TypeScript, Next.js, PostgreSQL) · AI engineering (automation pipelines, AI-ready code context, agent tooling) · systems work in Rust, C++, and Swift.<br><br>I ship end to end — data model, API, UI, tests, CI, deploy.<br><br><b>Open to remote roles, contracts, and freelance.</b> |
+
+</div>
 
 ## Track record
 
 **40+ repositories of shipped work** — SaaS products, client apps, AI tooling, and security systems. Most of it lives in private repos (client and product code); the linked highlights below are public and runnable.
 
-**AI & developer tooling** — [Forgelens](https://github.com/tawachdev/forgelens) (repo context engine) · Forgepilot (Rust) · ForgeShield + ForgeShield-Lab-OS (security) · ForgeRadar · ForgeSense (C++) · Atlas Nexus (Python data platform)
-
-**Products & SaaS** — Stadium Pro (booking SaaS family) · Smart Cafe OS · Diyafa OS · Invoicely · Opscore · Islam Plus · Nada Perfume · Dr Kaoui · Jibha · L9itha
-
-**Systems & games** — CodeBop (Rust) · MZKNI (Swift, iOS) · [MiniCraft](https://github.com/tawachdev/minicraft) · mini-doom
+| AI & developer tooling | Products & SaaS | Systems & games |
+| --- | --- | --- |
+| [Forgelens](https://github.com/tawachdev/forgelens) (repo context engine) · Forgepilot (Rust) · ForgeShield + ForgeShield-Lab-OS (security) · ForgeRadar · ForgeSense (C++) · Atlas Nexus (Python data platform) | Stadium Pro (booking SaaS family) · Smart Cafe OS · Diyafa OS · Invoicely · Opscore · Islam Plus · Nada Perfume · Dr Kaoui · Jibha · L9itha | CodeBop (Rust) · MZKNI (Swift, iOS) · [MiniCraft](https://github.com/tawachdev/minicraft) · mini-doom |
 
 ## Public highlights
 
