@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="MiniCraft — voxel sandbox in the browser. Procedural 96 by 96 by 48 world, chunked face-culling meshing, AABB physics, behavioral test suite in plain Node. TypeScript and Three.js, zero image assets.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="MiniCraft — voxel sandbox in the browser, work in progress version 0.1. Procedural 96 by 96 by 48 world, chunked face-culling meshing, AABB physics, behavioral test suite in plain Node. TypeScript and Three.js, zero image assets.">
   <style>
-    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --strong: #0F1B2D; --muted: #64748B; }
-    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --strong: #E5EDF5; --muted: #8B98A9; } }
+    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --strong: #0F1B2D; --muted: #64748B; --amber: #B45309; }
+    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --strong: #E5EDF5; --muted: #8B98A9; --amber: #FBBF24; } }
     .panel { fill: var(--glass); stroke: var(--glass-line); stroke-width: 1.5; }
-    .title { fill: var(--strong); } .muted { fill: var(--muted); }
+    .title { fill: var(--strong); } .muted { fill: var(--muted); } .amber { fill: var(--amber); }
+    .chip { fill: var(--amber); fill-opacity: 0.14; stroke: var(--amber); stroke-opacity: 0.55; }
   </style>
   <rect x="20" y="25" width="1160" height="100" rx="16" class="panel"/>
-  <rect x="48" y="50" width="50" height="50" rx="12" fill="#6ABE30"/>
-  <text x="73" y="83" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#0B1220">MC</text>
+
+  <g>
+    <polygon points="75,44 104,58 75,72 46,58" fill="#5F9F35"/>
+    <polygon points="46,58 75,72 75,106 46,92" fill="#5E3F25"/>
+    <polygon points="75,72 104,58 104,92 75,106" fill="#8A6140"/>
+    <rect x="60" y="55" width="9" height="6" fill="#7FBF4D" transform="skewY(14)"/>
+    <rect x="84" y="66" width="9" height="6" fill="#7FBF4D" transform="skewY(-14)"/>
+    <rect x="56" y="74" width="7" height="7" fill="#8A6140"/>
+    <rect x="68" y="82" width="6" height="6" fill="#4A3220"/>
+    <rect x="86" y="76" width="7" height="7" fill="#A0754E"/>
+  </g>
+
   <text x="122" y="70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" class="title">MiniCraft <tspan class="muted" font-weight="500">— voxel sandbox in the browser</tspan></text>
   <text x="122" y="98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" class="muted">procedural 96×96×48 world · face-culling meshing · AABB physics · zero assets</text>
+
+  <rect x="942" y="58" width="212" height="32" rx="16" class="chip"/>
+  <text x="1048" y="79" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" class="amber">WORK IN PROGRESS · v0.1</text>
 </svg>
