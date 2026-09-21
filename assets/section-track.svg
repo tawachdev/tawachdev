@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-label="Track record: over 40 shipped repositories. AI and developer tooling: Forgelens, Forgepilot, ForgeShield, ForgeShield-Lab-OS, ForgeRadar, ForgeSense, Atlas Nexus. Products and SaaS: Stadium Pro, Smart Cafe OS, Diyafa OS, Invoicely, Opscore, Islam Plus, Nada Perfume, Dr Kaoui, Jibha, L9itha. Systems and games: CodeBop, MZKNI, MiniCraft, mini-doom. Most work lives in private client repos.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-label="Track record: over 40 shipped repositories. AI and developer tooling: Forgelens, Forgepilot, ForgeShield, ForgeShield-Lab-OS, ForgeRadar, ForgeSense, Atlas Nexus. Systems and games: CodeBop, MZKNI, MiniCraft, mini-doom. Most work lives in private client repos.">
   <style>
-    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --inner: rgba(15,23,42,0.04); --inner-line: rgba(15,23,42,0.08); --strong: #0F1B2D; --body: #33475C; --muted: #64748B; --blue: #0284C7; --amber: #B45309; --purple: #7C3AED; --green: #16A34A; }
-    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --inner: rgba(255,255,255,0.03); --inner-line: rgba(148,163,184,0.12); --strong: #E5EDF5; --body: #C9D4E0; --muted: #8B98A9; --blue: #38BDF8; --amber: #FBBF24; --purple: #A78BFA; --green: #22C55E; } }
+    svg { --glass: rgba(255,255,255,0.60); --glass-line: rgba(15,23,42,0.12); --inner: rgba(15,23,42,0.04); --inner-line: rgba(15,23,42,0.08); --strong: #0F1B2D; --body: #33475C; --muted: #64748B; --blue: #0284C7; --purple: #7C3AED; --green: #16A34A; }
+    @media (prefers-color-scheme: dark) { svg { --glass: rgba(9,17,32,0.55); --glass-line: rgba(148,163,184,0.16); --inner: rgba(255,255,255,0.03); --inner-line: rgba(148,163,184,0.12); --strong: #E5EDF5; --body: #C9D4E0; --muted: #8B98A9; --blue: #38BDF8; --purple: #A78BFA; --green: #22C55E; } }
     .panel { fill: var(--glass); stroke: var(--glass-line); stroke-width: 1.5; }
     .inner { fill: var(--inner); stroke: var(--inner-line); stroke-width: 1; }
     .muted { fill: var(--muted); } .body { fill: var(--body); }
-    .blue { fill: var(--blue); } .amber { fill: var(--amber); } .purple { fill: var(--purple); } .green { fill: var(--green); }
+    .blue { fill: var(--blue); } .purple { fill: var(--purple); } .green { fill: var(--green); }
   </style>
 
   <rect x="20" y="20" width="1160" height="330" rx="16" class="panel"/>
@@ -13,34 +13,23 @@
   <text x="60" y="70" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" class="blue" letter-spacing="1">TRACK RECORD</text>
   <text x="1140" y="70" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" class="green">40+ repos shipped</text>
 
-  <rect x="44" y="92" width="344" height="232" rx="14" class="inner"/>
-  <rect x="428" y="92" width="344" height="232" rx="14" class="inner"/>
-  <rect x="812" y="92" width="344" height="232" rx="14" class="inner"/>
+  <rect x="44" y="92" width="556" height="232" rx="14" class="inner"/>
+  <rect x="624" y="92" width="556" height="232" rx="14" class="inner"/>
 
   <text x="68" y="126" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" class="blue">AI &amp; Developer Tooling</text>
-  <text x="452" y="126" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" class="amber">Products &amp; SaaS</text>
-  <text x="836" y="126" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" class="purple">Systems &amp; Games</text>
+  <text x="648" y="126" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" class="purple">Systems &amp; Games</text>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" class="body">
     <text x="68" y="158">Forgelens — context engine</text>
     <text x="68" y="180">Forgepilot · Rust</text>
-    <text x="68" y="202">ForgeShield · security</text>
-    <text x="68" y="224">ForgeShield-Lab-OS</text>
-    <text x="68" y="246">ForgeRadar · ForgeSense · C++</text>
-    <text x="68" y="268">Atlas Nexus · Python data</text>
+    <text x="68" y="202">ForgeShield + Lab-OS · security</text>
+    <text x="68" y="224">ForgeRadar · ForgeSense · C++</text>
+    <text x="68" y="246">Atlas Nexus · Python data</text>
 
-    <text x="452" y="158">Stadium Pro · booking SaaS</text>
-    <text x="452" y="180">Smart Cafe OS</text>
-    <text x="452" y="202">Diyafa OS</text>
-    <text x="452" y="224">Invoicely · invoicing</text>
-    <text x="452" y="246">Opscore · Islam Plus</text>
-    <text x="452" y="268">Nada Perfume · Dr Kaoui</text>
-    <text x="452" y="290">Jibha · L9itha</text>
-
-    <text x="836" y="158">CodeBop · Rust</text>
-    <text x="836" y="180">MZKNI · Swift, iOS</text>
-    <text x="836" y="202">MiniCraft · Three.js</text>
-    <text x="836" y="224">mini-doom</text>
+    <text x="648" y="158">CodeBop · Rust</text>
+    <text x="648" y="180">MZKNI · Swift, iOS</text>
+    <text x="648" y="202">MiniCraft · Three.js</text>
+    <text x="648" y="224">mini-doom</text>
   </g>
 
   <text x="600" y="342" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11.5" class="muted">most work lives in private client repos — public highlights below are runnable</text>
