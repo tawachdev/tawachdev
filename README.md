@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Mohamed Taaouach — Full-Stack Product Engineer. Contact buttons, GitHub activity, portrait and profile card." />
+<img src="./assets/profile-banner.svg" width="100%" alt="Mohamed Taaouach — Full-Stack Product Engineer. Contact buttons, portrait and profile card." />
 
 </div>
 
