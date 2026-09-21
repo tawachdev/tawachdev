@@ -30,22 +30,34 @@ Product engineer working across the whole stack: full-stack web (TypeScript, Nex
 
 ### [Forgelens](https://github.com/tawachdev/forgelens) — local-first repo context engine
 
-CLI that scans your repository, maps risky areas, and generates AI-ready context with baseline and drift detection. [Live examples →](https://forgelens-lyart.vercel.app/examples)
+CLI that scans your repository, maps risky areas, and generates AI-ready context with baseline and drift detection.
+
+[![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/forgelens)
+[![Live examples](https://img.shields.io/badge/Live_Examples-38BDF8?style=flat-square&logo=vercel&logoColor=0B1220)](https://forgelens-lyart.vercel.app/examples)
 
 ### [MiniCraft](https://github.com/tawachdev/minicraft) — voxel sandbox in the browser
 
-Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a behavioral test suite that runs in plain Node. TypeScript + Three.js, zero image assets. [Play it →](https://tawachdev.github.io/minicraft/)
+Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a behavioral test suite that runs in plain Node. TypeScript + Three.js, zero image assets.
+
+[![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/minicraft)
+[![Play it](https://img.shields.io/badge/Play_It-6ABE30?style=flat-square&logo=githubpages&logoColor=white)](https://tawachdev.github.io/minicraft/)
 
 ## Stack
 
-| Layer | Tools I ship with |
-| --- | --- |
-| Frontend | TypeScript, React, Next.js, Three.js, Astro |
-| Backend | Node.js, REST, auth & payments flows, serverless (Cloudflare Workers) |
-| Data | PostgreSQL, schema design, migrations |
-| AI | Automation pipelines, AI-ready code context, agent tooling |
-| Systems | Rust, C++, Swift |
-| Craft | Test suites, CI pipelines, security reviews, performance budgets |
+<a href="https://github.com/tawachdev?tab=repositories">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,threejs,astro&perline=6" alt="TypeScript, React, Next.js, Node.js, Three.js, Astro" />
+</a>
+<br/>
+<a href="https://github.com/tawachdev?tab=repositories">
+  <img src="https://skillicons.dev/icons?i=postgres,py,rust,cpp,swift,git&perline=6" alt="PostgreSQL, Python, Rust, C++, Swift, Git" />
+</a>
+
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
+Also in daily work: REST API design, auth & payment flows, schema migrations, security reviews, performance budgets.
 
 ## How I work
 
