@@ -1,14 +1,8 @@
 <div align="center">
 
-<img src="./assets/nameplate.svg" width="560" alt="Mohamed Taaouach — Product · Full-Stack · AI Engineer" />
+<img src="./assets/profile-banner.svg" width="100%" alt="Mohamed Taaouach — Full-Stack Product Engineer. Contact buttons, GitHub activity, portrait and profile card." />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1220?style=for-the-badge&logo=linkedin&logoColor=38BDF8)](https://www.linkedin.com/in/taaouach/)
-[![Email](https://img.shields.io/badge/Email-0B1220?style=for-the-badge&logo=gmail&logoColor=F43F5E)](mailto:tawachmohmmed399@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-0B1220?style=for-the-badge&logo=whatsapp&logoColor=22C55E)](https://wa.me/212690764049)
-
-<br/>
-
-<img src="./assets/profile-card.svg" width="100%" alt="Terminal-style profile: GitHub activity, portrait, and about-me card for Mohamed Taaouach" />
+[LinkedIn](https://www.linkedin.com/in/taaouach/) · [Email](mailto:tawachmohmmed399@gmail.com) · [WhatsApp](https://wa.me/212690764049)
 
 </div>
 
