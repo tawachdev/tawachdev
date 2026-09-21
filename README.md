@@ -32,17 +32,27 @@ Product engineer working across the whole stack: full-stack web (TypeScript, Nex
 
 CLI that scans your repository, maps risky areas, and generates AI-ready context with baseline and drift detection.
 
+<div align="center">
+
 [![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/forgelens)
 [![Live examples](https://img.shields.io/badge/Live_Examples-38BDF8?style=flat-square&logo=vercel&logoColor=0B1220)](https://forgelens-lyart.vercel.app/examples)
+
+</div>
 
 ### [MiniCraft](https://github.com/tawachdev/minicraft) — voxel sandbox in the browser
 
 Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a behavioral test suite that runs in plain Node. TypeScript + Three.js, zero image assets.
 
+<div align="center">
+
 [![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/minicraft)
 [![Play it](https://img.shields.io/badge/Play_It-6ABE30?style=flat-square&logo=githubpages&logoColor=white)](https://tawachdev.github.io/minicraft/)
 
+</div>
+
 ## Stack
+
+<div align="center">
 
 <a href="https://github.com/tawachdev?tab=repositories">
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,threejs,astro&perline=6" alt="TypeScript, React, Next.js, Node.js, Three.js, Astro" />
@@ -56,6 +66,8 @@ Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a b
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+
+</div>
 
 Also in daily work: REST API design, auth & payment flows, schema migrations, security reviews, performance budgets.
 
