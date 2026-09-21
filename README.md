@@ -8,38 +8,22 @@
 
 <div align="center">
 
-| Product engineer across the whole stack |
-| --- |
-| Full-stack web (TypeScript, Next.js, PostgreSQL) · AI engineering (automation pipelines, AI-ready code context, agent tooling) · systems work in Rust, C++, and Swift.<br><br>I ship end to end — data model, API, UI, tests, CI, deploy.<br><br><b>Open to remote roles, contracts, and freelance.</b> |
+<img src="./assets/section-intro.svg" width="100%" alt="What Mohamed does: full-stack web (TypeScript, React, Next.js, Three.js, PostgreSQL), AI engineering (automation pipelines, AI-ready code context, agent tooling), systems (Rust, C++, Swift, Cloudflare Workers), shipping end to end. Open to remote roles, contracts and freelance." />
+
+<img src="./assets/section-track.svg" width="100%" alt="Track record: over 40 shipped repositories across AI and developer tooling (Forgelens, Forgepilot, ForgeShield, ForgeRadar, ForgeSense, Atlas Nexus), products and SaaS (Stadium Pro, Smart Cafe OS, Diyafa OS, Invoicely, Opscore, Islam Plus, Nada Perfume, Dr Kaoui, Jibha, L9itha), systems and games (CodeBop, MZKNI, MiniCraft, mini-doom). Most work lives in private client repos." />
 
 </div>
 
-## Track record
-
-**40+ repositories of shipped work** — SaaS products, client apps, AI tooling, and security systems. Most of it lives in private repos (client and product code); the linked highlights below are public and runnable.
-
-| AI & developer tooling | Products & SaaS | Systems & games |
-| --- | --- | --- |
-| [Forgelens](https://github.com/tawachdev/forgelens) (repo context engine) · Forgepilot (Rust) · ForgeShield + ForgeShield-Lab-OS (security) · ForgeRadar · ForgeSense (C++) · Atlas Nexus (Python data platform) | Stadium Pro (booking SaaS family) · Smart Cafe OS · Diyafa OS · Invoicely · Opscore · Islam Plus · Nada Perfume · Dr Kaoui · Jibha · L9itha | CodeBop (Rust) · MZKNI (Swift, iOS) · [MiniCraft](https://github.com/tawachdev/minicraft) · mini-doom |
-
-## Public highlights
-
-### [Forgelens](https://github.com/tawachdev/forgelens) — local-first repo context engine
-
-CLI that scans your repository, maps risky areas, and generates AI-ready context with baseline and drift detection.
+*Most of this work lives in private client repos — the linked highlights below are public and runnable.*
 
 <div align="center">
+
+<img src="./assets/project-forgelens.svg" width="100%" alt="Forgelens — local-first repo context engine: repo scanner, risk map, AI-ready context, baseline and drift detection." />
 
 [![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/forgelens)
 [![Live examples](https://img.shields.io/badge/Live_Examples-38BDF8?style=flat-square&logo=vercel&logoColor=0B1220)](https://forgelens-lyart.vercel.app/examples)
 
-</div>
-
-### [MiniCraft](https://github.com/tawachdev/minicraft) — voxel sandbox in the browser
-
-Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a behavioral test suite that runs in plain Node. TypeScript + Three.js, zero image assets.
-
-<div align="center">
+<img src="./assets/project-minicraft.svg" width="100%" alt="MiniCraft — voxel sandbox in the browser: procedural 96 by 96 by 48 world, face-culling meshing, AABB physics, zero assets." />
 
 [![Repo](https://img.shields.io/badge/Repo-0B1220?style=flat-square&logo=github&logoColor=white)](https://github.com/tawachdev/minicraft)
 [![Play it](https://img.shields.io/badge/Play_It-6ABE30?style=flat-square&logo=githubpages&logoColor=white)](https://tawachdev.github.io/minicraft/)
@@ -67,6 +51,8 @@ Procedural 96×96×48 world, chunked face-culling meshing, AABB physics, and a b
 
 Also in daily work: REST API design, auth & payment flows, schema migrations, security reviews, performance budgets.
 
-## How I work
+<div align="center">
 
-Small, reviewable changes. Every feature lands with tests and a reason it exists. Security and correctness are constraints, not features — validation, error handling, and honest failure modes ship in the first version, not the second.
+<img src="./assets/section-how.svg" width="100%" alt="How Mohamed works: small reviewable changes with tests; security and correctness as constraints; honest failure modes ship in version one." />
+
+</div>

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "mimosa-hook-status/v1",
+  "recordedAt": "2026-09-21T16:32:07.118Z",
+  "sessionId": "sess_2fbdc1ca-c14e-4d13-8323-bf6022a98c14",
+  "event": "PostToolUse",
+  "toolName": "Write",
+  "file": "/Users/mohmmedtawach/.zcode/workspace/default/tawachdev-profile/README.md",
+  "outcome": "clear",
+  "coverage": "complete",
+  "findingCount": 0,
+  "durationMs": 3,
+  "hostState": "hook_complete",
+  "reportHint": ".mimosa/reports/"
+}

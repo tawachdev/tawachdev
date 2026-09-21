@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="What Mohamed does: full-stack web with TypeScript, React, Next.js, Three.js and PostgreSQL; AI engineering with automation pipelines, AI-ready code context and agent tooling; systems in Rust, C++, Swift and Cloudflare Workers; shipping end to end. Open to remote roles, contracts and freelance.">
+  <rect x="20" y="20" width="1160" height="210" rx="16" fill="#0D1526" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="60" y="52" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8B98A9" letter-spacing="3">WHAT I DO</text>
+
+  <text x="60" y="86" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#38BDF8">▸ </tspan><tspan fill="#C9D4E0">Full-stack web — TypeScript · React · Next.js · Three.js · PostgreSQL</tspan></text>
+  <text x="60" y="116" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#F43F5E">▸ </tspan><tspan fill="#C9D4E0">AI engineering — automation pipelines · AI-ready code context · agent tooling</tspan></text>
+  <text x="60" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#FBBF24">▸ </tspan><tspan fill="#C9D4E0">Systems — Rust · C++ · Swift · Cloudflare Workers</tspan></text>
+  <text x="60" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14"><tspan fill="#A78BFA">▸ </tspan><tspan fill="#C9D4E0">End to end — data model → API → UI → tests → CI → deploy</tspan></text>
+
+  <circle cx="68" cy="202" r="5" fill="#22C55E"/>
+  <text x="84" y="207" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#22C55E">Open to remote roles, contracts, and freelance</text>
+</svg>
