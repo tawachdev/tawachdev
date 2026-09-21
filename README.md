@@ -28,6 +28,8 @@
 [![Repo](https://img.shields.io/badge/Repo-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tawachdev/minicraft)
 [![Play it](https://img.shields.io/badge/Play_It-6ABE30?style=for-the-badge&logo=githubpages&logoColor=white)](https://tawachdev.github.io/minicraft/)
 
+<img src="./assets/section-roadmap.svg" width="100%" alt="Open source roadmap, coming soon: ForgeShield (security and recon toolkit), Stadium Pro (booking SaaS platform), Tawach SaaS Engine (product starter kit). More open source lands here first." />
+
 </div>
 
 ## Stack
