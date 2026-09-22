@@ -1,11 +1,7 @@
 <div align="center">
-
-<img src="./assets/profile-banner.svg" width="100%" alt="Mohamed Taaouach — Full-Stack Product Engineer. Name and role, portrait and profile card." />
-
-<a href="https://www.linkedin.com/in/taaouach/"><img src="./assets/contact-linkedin.svg" alt="LinkedIn — Mohamed Taaouach" height="44" /></a>
-<a href="mailto:tawachmohmmed399@gmail.com"><img src="./assets/contact-email.svg" alt="Email — tawachmohmmed399@gmail.com" height="44" /></a>
-<a href="https://wa.me/212690764049"><img src="./assets/contact-whatsapp.svg" alt="WhatsApp — chat with Mohamed Taaouach" height="44" /></a>
-
+<img src="./assets/profile-header.svg" width="100%" alt="Mohamed Taaouach — Full-Stack Product Engineer, Khenifra, Morocco." />
+<a href="https://www.linkedin.com/in/taaouach/"><img src="./assets/contact-linkedin.svg" alt="LinkedIn — Mohamed Taaouach" height="44" /></a>&nbsp;&nbsp;&nbsp;<a href="mailto:tawachmohmmed399@gmail.com"><img src="./assets/contact-email.svg" alt="Email — tawachmohmmed399@gmail.com" height="44" /></a>&nbsp;&nbsp;&nbsp;<a href="https://wa.me/212690764049"><img src="./assets/contact-whatsapp.svg" alt="WhatsApp — chat with Mohamed Taaouach" height="44" /></a>
+<img src="./assets/profile-scene.svg" width="100%" alt="Animated terminal scene: typing portrait, GitHub contribution grid and profile card for tawachdev." />
 </div>
 
 ---

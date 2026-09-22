@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Mohamed Taaouach — Full-Stack Product Engineer, Khenifra, Morocco.">
+  <style>
+    :root { --canvas: #ffffff; --canvas-border: #d0d7de; --canvas-grid: #d8dee4; }
+    @media (prefers-color-scheme: dark) { :root { --canvas: #0d1117; --canvas-border: #30363d; --canvas-grid: #21262d; } }
+    .canvas { fill: var(--canvas); }
+    .canvas-border { stroke: var(--canvas-border); }
+    .canvas-grid-line { stroke: var(--canvas-grid); }
+  </style>
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path class="canvas-grid-line" d="M22 0H0V22" fill="none" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <path class="canvas" d="M28 0 H1172 A28 28 0 0 1 1200 28 V200 H0 V28 A28 28 0 0 1 28 0 Z"/>
+  <rect width="1200" height="200" fill="url(#grid)"/>
+    <text x="600" y="44" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#94A3B8" letter-spacing="4">WELCOME TO MY PROFILE</text>
+<text x="600" y="96" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38BDF8" letter-spacing="0.5">Mohamed Taaouach</text>
+  <text x="600" y="126" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#94A3B8" letter-spacing="1.5">Full-Stack Product Engineer · Khenifra, Morocco</text>
+  <path class="canvas-border" d="M28 200 V32 A22 22 0 0 1 50 10 H1150 A22 22 0 0 1 1172 32 V200" fill="none"/>
+</svg>

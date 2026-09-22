@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="664" viewBox="0 0 1200 664" role="img" aria-label="Mohamed Taaouach — Full-Stack Product Engineer. Name and role, GitHub activity, portrait and profile. Contact links sit directly below this banner.">
-  <rect class="canvas" width="1200" height="664" rx="28"/>
-  <rect width="1200" height="664" rx="28" fill="url(#grid)"/>
-    <text x="600" y="44" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#94A3B8" letter-spacing="4">WELCOME TO MY PROFILE</text>
-<text x="600" y="96" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#38BDF8" letter-spacing="0.5">Mohamed Taaouach</text>
-  <text x="600" y="126" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#94A3B8" letter-spacing="1.5">Full-Stack Product Engineer · Khenifra, Morocco</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="494" viewBox="0 170 1200 494" role="img" aria-label="Animated scene: terminal portrait of Mohamed Taaouach, contribution grid and profile card.">
+  <path class="canvas" d="M0 170 H1200 V636 A28 28 0 0 1 1172 664 H28 A28 28 0 0 1 0 636 Z"/>
+  <rect x="0" y="170" width="1200" height="494" fill="url(#grid)"/>
 <g transform="translate(0,-16)">
 
   <title id="title">Animated GitHub profile for tawachdev</title>
