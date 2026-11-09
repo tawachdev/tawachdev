@@ -14,8 +14,7 @@
 
 ## What I have shipped
 
-- **Hotel booking platform** for a real client, in production. Double booking is blocked in the PostgreSQL database, and the code has 1,379 unit tests. Private client repo.
-- **[Diyafat Pam](https://diyafatpam.com)**: aparthotel site in Khenifra. Guests see rooms and prices, pick dates and send a booking request to reception.
+- **[Diyafat Pam](https://diyafatpam.com)**: direct booking and operations system for an aparthotel and cafe in Khenifra, live with a real client. Bookings, reception, payments and accounting. Double booking is blocked by a PostgreSQL constraint, with about 1,900 unit tests and 150 end-to-end tests.
 - **[mimon](https://github.com/tawachdev/cli-agent)**: terminal AI coding agent on npm (`mimon-cli`). OpenAI, Anthropic and Gemini, about 330 tests.
 - **[Matopeli](https://github.com/tawachdev/matopeli)**: Snake in Rust and WebAssembly, works offline.
 
