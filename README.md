@@ -10,9 +10,15 @@
 
 <img src="./assets/section-intro.svg" width="100%" alt="What Mohamed does: full-stack web (TypeScript, React, Next.js, Three.js, PostgreSQL), AI engineering (automation pipelines, AI-ready code context, agent tooling), systems (Rust, C++, Swift, Cloudflare Workers), shipping end to end. Open to remote roles, contracts and freelance." />
 
-<img src="./assets/section-track.svg" width="100%" alt="Track record: over 40 shipped repositories across AI and developer tooling (Forgelens, Forgepilot, ForgeShield, ForgeRadar, ForgeSense, Atlas Nexus) and systems and games (CodeBop, MZKNI, MiniCraft, mini-doom). Most work lives in private client repos." />
-
 </div>
+
+## What I have shipped
+
+- **Hotel booking platform** for a real client, in production. Double booking is blocked in the PostgreSQL database, and the code has 1,379 unit tests. Private client repo.
+- **[Diyafat Pam](https://diyafatpam.com)**: aparthotel site in Khenifra. Guests see rooms and prices, pick dates and send a booking request to reception.
+- **[mimon](https://github.com/tawachdev/cli-agent)**: terminal AI coding agent on npm (`mimon-cli`). OpenAI, Anthropic and Gemini, about 330 tests.
+- **[Matopeli](https://github.com/tawachdev/matopeli)**: Snake in Rust and WebAssembly, works offline.
+
 
 ## Stack
 
