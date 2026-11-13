@@ -14,8 +14,9 @@
 
 ## What I have shipped
 
-- **[Diyafat Pam](https://diyafatpam.com)**: direct booking and operations system for an aparthotel and cafe in Khenifra, live with a real client. Bookings, reception, payments and accounting. Double booking is blocked by a PostgreSQL constraint, with about 1,900 unit tests and 150 end-to-end tests.
-- **[mimon](https://github.com/tawachdev/cli-agent)**: terminal AI coding agent on npm (`mimon-cli`). OpenAI, Anthropic and Gemini, about 330 tests.
+- **[agent-gate](https://github.com/tawachdev/agent-gate)**: open-source library on npm (`@tawachdev/agent-gate`). Your AI agent reads freely, and every write waits for a signed, single-use confirmation from the user.
+- **[Diyafat Pam](https://diyafatpam.com)**: direct booking and operations system for an aparthotel and cafe in Khenifra, live with a real client. Bookings, reception, Stripe and CMI payments, accounting. PostgreSQL itself refuses a double booking, a payment can't be counted twice, and payment history can't be edited.
+- **[mimon](https://github.com/tawachdev/cli-agent)**: terminal AI coding agent on npm (`mimon-cli`). OpenAI, Anthropic and Gemini, 317 tests.
 - **[Matopeli](https://github.com/tawachdev/matopeli)**: Snake in Rust and WebAssembly, works offline.
 
 
@@ -23,23 +24,29 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,threejs,tailwind,postgres&perline=7" alt="TypeScript, React, Next.js, Node.js, Three.js, Tailwind CSS, PostgreSQL" />
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,postgres,tailwind&perline=6" alt="Main stack: TypeScript, React, Next.js, Node.js, PostgreSQL, Tailwind CSS" />
 <br/>
-<img src="https://skillicons.dev/icons?i=py,rust,cpp,swift,astro,mongodb,sqlite&perline=7" alt="Python, Rust, C++, Swift, Astro, MongoDB, SQLite" />
+<img src="https://skillicons.dev/icons?i=js,py,c,cpp,java,go,rust,swift&perline=8" alt="JavaScript, Python, C, C++, Java, Go, Rust, Swift" />
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,vercel,linux,bash,git,github,prisma&perline=7" alt="Docker, Vercel, Linux, Bash, Git, GitHub, Prisma" />
+<img src="https://skillicons.dev/icons?i=html,css,nestjs,astro,threejs,prisma,mongodb,sqlite,supabase&perline=9" alt="HTML, CSS, NestJS, Astro, Three.js, Prisma, MongoDB, SQLite, Supabase" />
+<br/>
+<img src="https://skillicons.dev/icons?i=cloudflare,aws,vercel,docker,githubactions,linux,bash,git,blender,unity&perline=10" alt="Cloudflare, AWS, Vercel, Docker, GitHub Actions, Linux, Bash, Git, Blender, Unity" />
 
+![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
+![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=flat-square&logo=pusher&logoColor=white)
+![Resend](https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 </div>
 
-Daily work on top of these: REST API design · auth & RBAC · payments · multi-tenancy · audit logs · AI agents · RAG pipelines · LLM tool calling · realtime systems · observability.
+Daily work on top of these: auth and roles · payments and webhooks · multi-tenancy · audit logs · realtime · AI agents and tool calling.
 
 <div align="center">
 
